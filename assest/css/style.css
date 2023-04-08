@@ -80,80 +80,133 @@
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    width: 70%;
-    text-align: center;
-    justify-content: center;
-    background: #F5F5F5;
-    height: 6rem;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+  background: #f5f5f5;
+  height: 6rem;
 }
 
-
 nav ul {
-    display: flex;
-    gap: 1.5rem;
-    text-decoration: none;
+  display: flex;
+  gap: 1.5rem;
+  text-decoration: none;
 }
 
 nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul li a {
-    text-decoration: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 100%;
-    letter-spacing: 0.01rem;
-    color: #A3A1A1;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 100%;
+  letter-spacing: 0.01rem;
+  color: #a3a1a1;
 }
 
 nav ul li a:hover {
-    color: #000000;
+  color: #000000;
 }
 
-.git{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    height: 10rem;
-    background:  #000000;
-    z-index: 1;
-    position: absolute;
-    left: 80%;
+.git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 6rem;
+  background: #000000;
+  z-index: 1;
+  position: absolute;
+  left: 80%;
 }
 
-.git h3 a{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.15rem;
-    color: #A3A1A1;
-    text-decoration: none;
+.git img{
+  width: 70%;
 }
 
-.wcs{
-    background-color: #A3A1A1;
-    height: 100vh;
-    background-image: url(/assest/css/img/man.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom center;
-    position: relative;
+.git h3 a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.15rem;
+  color: #a3a1a1;
+  text-decoration: none;
 }
 
-.wcs_harmburger{
-    background: #000000;
-    width: 10%;
-    position: absolute;
-    height: 20rem;
-    bottom:10%;
-    left: 90%;
-    z-index: -1;
+.wcs {
+  background-color: #a3a1a1;
+  height: 100vh;
+  background-image: url(/assest/img/man.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  position: relative;
 }
 
+.wcs_harmburger {
+  background: #000000;
+  width: 10%;
+  position: absolute;
+  height: 20rem;
+  bottom: 10%;
+  left: 90%;
+  z-index: -1;
+}
+
+.wcs_container {
+  padding: 3%;
+}
+
+.wcs_text h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.3rem;
+  padding-left: 5.5rem;
+  color: #000000;
+}
+
+.wcs_text h1{
+  font-family: 'Noto Sans Bengali UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.7rem;
+  line-height: 78.8%;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.proj h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 44px;
+  color: #000000;
+}
+
+.proj{
+  margin: 1rem 2rem;
+}
+
+.btn{
+
+  border-radius: 10px;
+  padding: .7rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-left:  2rem;
+  width: 32%;
+  
+}
