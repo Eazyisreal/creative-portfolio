@@ -35,5 +35,34 @@
 }
 
 @media screen and (max-width: 475px){
+    .footer_text h2{
+        display: none;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+
+    .wcs{
+        background-image: none;
+    }
+
+    .btn{
+        width: 50%;
+    }
+
+    .wcs_container {
+        padding: 50% 3%;
+        min-height: 50%;
+    }
+
+    .bar{
+        width: 2rem;
+    }
+
+    .hero{
+        display: none;
+    }
+    
 
 }
