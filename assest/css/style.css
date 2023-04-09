@@ -143,11 +143,19 @@ nav ul li a:hover {
 .wcs {
   background-color: #a3a1a1;
   height: 100vh;
-  background-image: url(../img/man.svg);
+  background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom center;
+  background-size: cover;
+  /* background-position: bottom center; */
   position: relative;
+}
+
+.wcs img{
+   width: 40%;
+   object-fit: contain;
+   position: absolute;
+   left: 50%;
+   top: 20%;
 }
 
 .wcs_harmburger {
@@ -198,7 +206,6 @@ nav ul li a:hover {
 }
 
 .btn{
-
   border-radius: 10px;
   padding: .7rem;
   font-family: 'Inter';
@@ -208,5 +215,5 @@ nav ul li a:hover {
   line-height: 1.8rem;
   margin-left:  2rem;
   width: 32%;
-  
+  border: none;
 }
