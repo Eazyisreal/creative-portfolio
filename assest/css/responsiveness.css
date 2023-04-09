@@ -43,8 +43,8 @@
         justify-content: center;
     }
 
-    .wcs{
-        background-image: none;
+    .wcs img{
+         top: 50%;
     }
 
     .btn{
@@ -52,7 +52,7 @@
     }
 
     .wcs_container {
-        padding: 50% 3%;
+        padding: 20% 3%;
         min-height: 50%;
     }
 

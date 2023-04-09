@@ -7,7 +7,7 @@
 }
 
 .footer {
-  background-color: #a3a1a1;
+  /* background-color: #a3a1a1; */
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -25,13 +25,17 @@
 }
 
 .footer-links ul li a {
-  font-family: "Aladin", cursive;
+  font-family: "Inter", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.32rem;
-  color: #f5f5f5;
+  color: black;
   text-decoration: none;
+}
+
+.footer-links ul li a:hover{
+  color:#FF5F1F ;
 }
 
 .footer_text h2 {
@@ -216,4 +220,5 @@ nav ul li a:hover {
   margin-left:  2rem;
   width: 32%;
   border: none;
+  background:  linear-gradient(to right,#FF5F1F, #FFEA00 ) ;
 }
