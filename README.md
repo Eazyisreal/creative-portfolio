@@ -11,7 +11,7 @@ This is a website for a creative digital agency built with vanilla CSS, JavaScri
 
 ## To install and run the website locally, follow these steps:
 
-- Clone the repository: git clone `#L https://github.com/your-username/your-repo.git`
+- Clone the repository: git clone `https://github.com/your-username/your-repo.git`
 - Open the project directory: cd your-repo
 - Open index.html in your web browser
 - Alternatively, you can view the live demo of the website here .
@@ -38,11 +38,12 @@ The gallery section features a lightbox effect using vanilla JavaScript, which c
 
 The following resources were used in the development of this website:
 
-GSAP
-Unsplash
-Feather Icons
-Fancybox
-Normalize.css
+- GSAP
+- Unsplash
+- Feather Icons
+- Fancybox
+- Normalize.css
 
 ## License
+
 This project is licensed under the MIT license.
