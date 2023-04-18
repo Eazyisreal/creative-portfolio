@@ -1,0 +1,16 @@
+:root{
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    --other-font:  'Poppins', sans-serif;
+    --primary-color: #E97001;
+    --secondary-color: #FFFFFF;
+    --bg-color:  #000000;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background:var(--bg-color);
+}
