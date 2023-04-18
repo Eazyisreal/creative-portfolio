@@ -1,0 +1,33 @@
+:root {
+    --wristwatch: 200px;
+    --small-mobile: 475px;
+    --mobile: 600px;
+    --tablet: 768px;
+    --laptop: 992px;
+    --desktop: 1200px;
+  }
+
+  @media only screen and (min-width: var(--wristwatch)) {
+    /* styles for wristwatches */
+  }
+
+  @media only screen and (min-width: var(--small-mobile)) {
+    /* styles for smaller  mobile devices */
+  }
+  
+  @media only screen and (min-width: var(--mobile)) {
+    /* styles for mobile devices */
+  }
+  
+  @media only screen and (min-width: var(--tablet)) {
+    /* styles for tablets */
+  }
+  
+  @media only screen and (min-width: var(--laptop)) {
+    /* styles for laptops */
+  }
+  
+  @media only screen and (min-width: var(--desktop)) {
+    /* styles for desktops */
+  }
+  
