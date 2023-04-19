@@ -23,6 +23,8 @@
     padding: 0 20px;
 }
 
+/* Header */
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -33,6 +35,8 @@
     width: 200px;
     object-fit: contain;
 }
+
+/* Nav */
 
 nav{
     padding: 20px;
@@ -57,6 +61,8 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Hero */
+
 .hero{
     padding: 6rem;
     
@@ -72,7 +78,7 @@ nav ul li a {
     color: var(--secondary-color);
 }
 
-.hero h3{
+.hero h4{
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 300;
@@ -98,7 +104,7 @@ nav ul li a {
     padding: 1.22rem;
     width: 14.73rem;
     height: 3.89rem;
-    background: #E97001;
+    background: var(--primary-color);
     border-radius:0.61rem;
     border: none;
     font-size: 1.37rem;
@@ -120,4 +126,66 @@ nav ul li a {
     font-weight: 600;
     font-size: 1.37rem;
     color: var(--primary-color);
+}
+
+/* Approach */
+
+.approach{
+    display: flex;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.approach1{
+    display: flex;
+    flex-direction:row-reverse ;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.approach--txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.approach--txt_top, .approach--txt_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1.5rem;
+}
+
+.approach--txt_top h3 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+.approach--txt_top h2{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size:3.5rem;
+    color: var(--primary-color);
+}
+
+.approach--txt_bottom p{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: justify;
+    color: var(--secondary-color);
+}
+
+.approach img{
+    width: 490px;
+    height: 413px;
 }
