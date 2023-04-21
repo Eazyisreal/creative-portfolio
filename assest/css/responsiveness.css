@@ -1,33 +1,71 @@
-:root {
-    --wristwatch: 200px;
-    --small-mobile: 475px;
-    --mobile: 600px;
-    --tablet: 768px;
-    --laptop: 992px;
-    --desktop: 1200px;
+@media only screen and (min-width: var(--wristwatch)) {
+  /* styles for wristwatches */
+}
+
+@media only screen and (min-width: var(--small-mobile)) {
+  /* styles for smaller  mobile devices */
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* styles for mobile devices */
+  nav {
+    display: none;
   }
 
-  @media only screen and (min-width: var(--wristwatch)) {
-    /* styles for wristwatches */
+  .hero {
+    padding: 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  /* styles for tablets */
+
+  .approach {
+    gap: 5rem;
   }
 
-  @media only screen and (min-width: var(--small-mobile)) {
-    /* styles for smaller  mobile devices */
+  .approach--txt_bottom p {
+    line-height: 1rem;
+    text-align: left;
+    font-size: 1rem;
   }
-  
-  @media only screen and (min-width: var(--mobile)) {
-    /* styles for mobile devices */
+
+  .approach,
+  .approach1 {
+    gap: 1.5rem;
+    flex-direction: column;
   }
-  
-  @media only screen and (min-width: var(--tablet)) {
-    /* styles for tablets */
+}
+
+@media only screen and (max-width: 1024px) {
+  /* styles for laptops */
+
+  .approach--txt_bottom p {
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1.2rem;
   }
-  
-  @media only screen and (min-width: var(--laptop)) {
-    /* styles for laptops */
+
+  .approach,
+  .approach1 {
+    gap: 1.5rem;
   }
-  
-  @media only screen and (min-width: var(--desktop)) {
-    /* styles for desktops */
+
+  .hero h2 {
+    font-size: 3rem;
   }
-  
+
+  .hero h4 {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+
+  .approach--txt_top h3 {
+    font-size: 1.2rem;
+  }
+
+  .approach--txt_top h2 {
+    font-size: 2.5rem;
+  }
+}
