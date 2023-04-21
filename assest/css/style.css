@@ -199,3 +199,42 @@ nav ul li a {
 .approach1 img {
     width: 100%;
 }
+
+/* Testimonials */
+
+.testimonials{
+    display: flex;
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+.testimonial--txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial--txt h3{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.testimonial--txt h2{
+    font-family: var(--other-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--primary-color);
+}
+
+.testimonial--txt h4{
+    font-family: var(--other-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color:var(--secondary-color);
+}

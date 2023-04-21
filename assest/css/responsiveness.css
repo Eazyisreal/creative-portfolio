@@ -7,7 +7,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-
   /* styles for mobile devices */
   nav {
     display: none;
@@ -25,16 +24,28 @@
     gap: 5rem;
   }
 
+  .approach--txt {
+    gap: 1rem;
+  }
+
   .approach--txt_bottom p {
     line-height: 1rem;
     text-align: left;
     font-size: 1rem;
+  }
+  .approach--txt_top,
+  .approach--txt_bottom {
+    gap: 0.5rem;
   }
 
   .approach,
   .approach1 {
     gap: 1.5rem;
     flex-direction: column;
+  }
+
+  .testimonial--txt h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -68,4 +79,8 @@
   .approach--txt_top h2 {
     font-size: 2.5rem;
   }
+
+  /* .testimonial--txt h2 {
+    font-size: 2.5rem;
+  } */
 }
