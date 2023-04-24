@@ -13,8 +13,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--bg-color);
-    /* border: 1px solid red; */
+    /* background: var(--bg-color); */
+    /* outline: 1px solid red; */
+}
+
+body{
+    background: var(--bg-color); 
 }
 
 .container {
@@ -63,9 +67,10 @@ nav ul li a {
 
 /* Hero */
 
-.hero {
+ .hero {
     padding: 6rem;
-
+    background: url(../img/bg.svg) !important;
+    min-height: 70vh;
 }
 
 .hero h2 {
@@ -124,6 +129,7 @@ nav ul li a {
     height: 3.89rem;
     border-radius: 0.61rem;
     border: 1px solid var(--primary-color);
+    background: transparent;
     font-family: var(--noto-font);
     font-weight: 600;
     font-size: 1.37rem;
@@ -202,20 +208,22 @@ nav ul li a {
 
 /* Testimonials */
 
-.testimonials{
+.testimonials {
     display: flex;
-    padding-top: 4rem;
+    padding: 5rem 0;
     justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-.testimonial--txt{
+.testimonial--txt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
-.testimonial--txt h3{
+.testimonial--txt h3 {
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
@@ -223,7 +231,7 @@ nav ul li a {
     color: var(--secondary-color);
 }
 
-.testimonial--txt h2{
+.testimonial--txt h2 {
     font-family: var(--other-font);
     font-style: normal;
     font-weight: 700;
@@ -231,10 +239,145 @@ nav ul li a {
     color: var(--primary-color);
 }
 
-.testimonial--txt h4{
+.testimonial--txt h4 {
     font-family: var(--other-font);
     font-style: normal;
     font-weight: 500;
     font-size: 1.1rem;
-    color:var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.testimonial--carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.1rem;
+    gap: 1.2rem;
+    overflow-y: scroll;
+    scroll-snap-type: x mandatory;
+
+}
+
+.testimonial--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem;
+    gap: 2.3rem;
+    background: rgba(233, 112, 1, 0.05);
+    border-radius: 22.5313px;
+    min-width: 21.5rem;
+    scroll-snap-align: start;
+}
+
+.testimonial--item h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.8984px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+
+
+.testimonial--item h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.8984px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 71.1111px 71.1111px 35.5556px;
+    gap: 35.56px;
+    background: var(--primary-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.footer .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35.56px;
+}
+
+.footer .footer--logo img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 21.33px;
+    height: 150px;
+    width: 200px;
+    background: var(--primary-color);
+}
+
+.footer .social--link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10.67px;
+}
+
+.footer .actions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14.22px;
+}
+
+.footer .actions h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.2222px;
+    line-height: 150%;
+    color: #F9FAFC;
+}
+
+.footer .form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14.22px;
+    width: 366.22px;
+    height: 42.67px;
+}
+
+.form input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10.6667px;
+    width: 246.33px;
+    height: 42.67px;
+    background: #FFFFFF;
+    border: 0.888889px solid #F9FAFC;
 }
