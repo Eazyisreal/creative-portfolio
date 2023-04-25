@@ -70,7 +70,6 @@ nav ul li a {
  .hero {
     padding: 6rem;
     background: url(../img/bg.svg) !important;
-    min-height: 70vh;
 }
 
 .hero h2 {
