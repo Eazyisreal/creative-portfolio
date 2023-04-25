@@ -1,0 +1,161 @@
+.hero1 {
+    padding: 6rem;
+}
+
+.hero1 h2 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    /* line-height: 3rem; */
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+
+.hero1 h4 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 3rem;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+
+.mission h2{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.mission p{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: justify;
+    color: var(--secondary-color);
+}
+
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+
+.vision h2{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.vision p{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: justify;
+    color: var(--secondary-color);
+}
+
+.team{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    width: 100%;
+}
+
+.team h2{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.team-mates{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    width: 100%;
+}
+
+.team-mate{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+    width: 100%;
+}
+
+.team-mate img{
+    border-radius: 16px;
+    height: 200px;
+    width: 100%;
+}
+
+.team-mate h4{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: var(--primary-color);
+}
+
+.team-mate h5{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: justify;
+    color:var(--secondary-color);
+}
+
+.hero2 {
+    padding: 6rem;
+}
+
+.hero2 h2 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* line-height: 3rem; */
+    text-align: center;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}

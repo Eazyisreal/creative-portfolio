@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Page Title -->
-    <title>Creative Agency Portfolio</title>
+    <title>Creative Agency Portfolio| Home</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./assest/css/style.css" />
     <link rel="stylesheet" href="./assest/css/responsiveness.css" />
@@ -37,12 +37,12 @@
 </head>
 
 <body>
-     <!-- Under Construction page  -->
-     <div class="unc ">
+    <!-- Under Construction page  -->
+    <div class="unc ">
         <h1 class="unc--text">Coming Soon !!!</h1>
         <p class="unc--text">Our Mobile Screens are under construction. <br> Move over to desktop</p>
 
-     </div>
+    </div>
 
     <!-- Container -->
     <div class="container">
@@ -57,7 +57,7 @@
                         <a href="" target="_blank" rel="noopener noreferrer">Projects</a>
                     </li>
                     <li>
-                        <a href="" target="_blank" rel="noopener noreferrer"> About Us</a>
+                        <a href="/assest/html/about.html" target="_blank" rel="noopener noreferrer"> About</a>
                     </li>
                     <li>
                         <a href="" target="_blank" rel="noopener noreferrer"> Contact</a>
@@ -252,18 +252,15 @@
 </body>
 
 <script>
-        // Select the element to animate
+    // Select the element to animate
     const text = document.querySelector('.unc');
     const t = document.querySelector('.unc--text');
 
     // Create a new gsap animation
-    gsap.from(text, {duration: 1, opacity: 0, y: 50})
-         .to(text, {duration: 1, opacity: 1, y: 0});
+    gsap.from(text, { duration: 1, opacity: 0, y: 50 })
+        .to(text, { duration: 1, opacity: 1, y: 0 });
 
     gsap.fromTo(t, { x: -200, opacity: 0 }, { duration: 1.5, x: 0, opacity: 1 });
-
-
-
 </script>
 
 </html>

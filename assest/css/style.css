@@ -8,6 +8,9 @@
     --bg-color: #000000;
 }
 
+.unc{
+    display: none;
+}
 
 * {
     padding: 0;
@@ -192,8 +195,6 @@ nav ul li a {
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
-    line-height: 3rem;
-    text-align: justify;
     color: var(--secondary-color);
 }
 
