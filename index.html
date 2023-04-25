@@ -37,6 +37,13 @@
 </head>
 
 <body>
+     <!-- Under Construction page  -->
+     <div class="unc ">
+        <h1 class="unc--text">Coming Soon !!!</h1>
+        <p class="unc--text">Our Mobile Screens are under construction. <br> Move over to desktop</p>
+
+     </div>
+
     <!-- Container -->
     <div class="container">
         <!-- Header  -->
@@ -191,38 +198,72 @@
                         </div>
 
                         <div class="social--links">
-
+                            <img src="./assest/img/facebook.png" alt="">
+                            <img src="./assest/img/instagram.png" alt="">
+                            <img src="./assest/img/twitter.png" alt="">
+                            <img src="./assest/img/linkedin.png" alt="">
                         </div>
                     </div>
-                    <nav>
+                    <div class="footer--nav">
                         <ul>
                             <li>
                                 <a href="" target="_blank" rel="noopener noreferrer">Projects</a>
                             </li>
                             <li>
-                                <a href="" target="_blank" rel="noopener noreferrer"> About Us</a>
+                                <a href="" target="_blank" rel="noopener noreferrer"> About </a>
                             </li>
                             <li>
                                 <a href="" target="_blank" rel="noopener noreferrer"> Contact</a>
                             </li>
                         </ul>
-                    </nav>
+                    </div>
                     <div class="actions">
                         <h2>Subscribe</h2>
                         <div class="form">
                             <label for="Email"></label>
                             <input type="email" name="" id="" placeholder="Enter your email">
                             <div class="cta">
-                                <a href=""><button class="btn">Hire Us</button></a>
+                                <a href=""><button class="btn_cta">Subscribe</button></a>
                             </div>
                         </div>
+                        <h2>By subscribing you agree to with our Privacy Policy</h2>
                     </div>
                 </div>
-                <div class="credits"></div>
+                <hr>
+                <div class="rows">
+                    <div class="footer--nav1">
+                        <ul>
+                            <li>
+                                <a href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" rel="noopener noreferrer"> Terms of Service </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank" rel="noopener noreferrer"> Cookies Settings</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h2> &copy2023, All right reserved.</h2>
+                </div>
             </footer>
         </main>
     </div>
-
 </body>
+
+<script>
+        // Select the element to animate
+    const text = document.querySelector('.unc');
+    const t = document.querySelector('.unc--text');
+
+    // Create a new gsap animation
+    gsap.from(text, {duration: 1, opacity: 0, y: 50})
+         .to(text, {duration: 1, opacity: 1, y: 0});
+
+    gsap.fromTo(t, { x: -200, opacity: 0 }, { duration: 1.5, x: 0, opacity: 1 });
+
+
+
+</script>
 
 </html>

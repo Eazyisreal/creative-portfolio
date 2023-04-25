@@ -2,8 +2,40 @@
   /* styles for wristwatches */
 }
 
-@media only screen and (min-width: var(--small-mobile)) {
+@media only screen and (max-width: 475px) {
   /* styles for smaller  mobile devices */
+  .container{
+    display: none;
+  }
+
+  .unc {
+    display: flex;
+    background: url(../img/bg.svg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  .unc h1{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 3rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+  }
+  .unc p{
+    font-size: 1.37rem;
+    font-weight: 200;
+    padding: 3rem;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -48,6 +80,25 @@
   .testimonial--txt h2 {
     font-size: 1.5rem;
   }
+
+  .footer .content{
+    flex-direction: column;
+  }
+
+  .footer .column {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer--nav {
+  padding: 2rem;
+  width: 100%;
+}
+
+.footer .actions {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
