@@ -34,7 +34,8 @@
 .project--item_details{
     display: flex;
     align-items: flex-end;
-    gap: 2rem;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .project--item img {
