@@ -53,7 +53,7 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: justify;
     color: #F9F9F9;
 }
@@ -70,6 +70,7 @@ textarea{
     height: 7rem;
     background: #FFFFFF;
     border-radius: 8px;
+    margin-bottom: 1.2rem;
 }
 
 .column{
@@ -86,4 +87,8 @@ textarea{
 span{
     color: red;
     margin-left: 0.5rem;
+}
+
+a{
+    text-decoration: none;
 }
