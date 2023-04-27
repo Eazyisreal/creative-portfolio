@@ -5,8 +5,8 @@
 .hero1 h2 {
     font-family: var(--primary-font);
     font-style: normal;
-    font-weight: 700;
-    font-size: 3.5rem;
+    font-weight: 600;
+    font-size: 2.7rem;
     /* line-height: 3rem; */
     text-align: center;
     color: var(--primary-color);
@@ -16,8 +16,8 @@
 .hero1 h4 {
     font-family: var(--primary-font);
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 350;
+    font-size: 1.3rem;
     line-height: 2rem;
     text-align: center;
     padding: 3rem;
@@ -30,8 +30,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
-    gap: 40px;
+    padding: 2.5rem;
+    gap:2.5rem;
 }
 
 
@@ -59,8 +59,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
-    gap: 40px;
+    padding: 2.5rem;
+    gap: 2.5rem;
 }
 
 
@@ -84,11 +84,11 @@
 }
 
 .team{
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
-    gap: 40px;
+    padding: 2.5rem;
+    gap: 2.5rem;
     width: 100%;
 }
 
@@ -96,8 +96,8 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 2.5rem;
+    /* line-height: 49px; */
     text-align: center;
     color: var(--primary-color);
 }
@@ -107,7 +107,7 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 60px;
+    gap: 3rem;
     width: 100%;
 }
 
@@ -121,8 +121,13 @@
 }
 
 .team-mate img{
-    border-radius: 16px;
+    border-radius: 1rem;
     width: 100%;
+}       
+
+.team-mate:hover{
+    transform: scale(1.1) translateX(1.5rem);
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .team-mate h4{
@@ -156,5 +161,5 @@
     text-align: center;
     color: var(--secondary-color);
     text-transform: capitalize;
-    padding-bottom: 20px;
+    padding-bottom: 1.2rem;
 }

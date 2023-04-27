@@ -25,6 +25,11 @@
     width: 100%;
 }
 
+.project--item:hover{
+    transform: scale(1.1) translateX(1.5rem);
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+}
+
 .project--item_detail{
     display: flex;
     flex-direction: column;

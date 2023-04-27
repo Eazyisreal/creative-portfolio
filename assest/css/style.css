@@ -8,7 +8,7 @@
     --bg-color: #000000;
 }
 
-.unc{
+.unc {
     display: none;
 }
 
@@ -20,8 +20,8 @@
     /* outline: 1px solid red; */
 }
 
-body{
-    background: var(--bg-color); 
+body {
+    background: var(--bg-color);
 }
 
 .container {
@@ -68,9 +68,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+nav ul li a:hover {
+    color: var(--primary-color);
+}
+
 /* Hero */
 
- .hero {
+.hero {
     padding: 6rem;
     background: url(../img/bg.svg) !important;
 }
@@ -78,8 +83,8 @@ nav ul li a {
 .hero h2 {
     font-family: var(--primary-font);
     font-style: normal;
-    font-weight: 700;
-    font-size: 3.5rem;
+    font-weight: 600;
+    font-size: 3rem;
     line-height: 3rem;
     text-align: center;
     color: var(--secondary-color);
@@ -138,6 +143,17 @@ nav ul li a {
     color: var(--primary-color);
 }
 
+.btn:hover {
+    background: #FF8700;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background: var(--primary-color);
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
 /* Approach */
 
 .approach {
@@ -176,8 +192,8 @@ nav ul li a {
 .approach--txt_top h3 {
     font-family: var(--primary-font);
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 1.4rem;
     color: var(--secondary-color);
     text-transform: uppercase;
 }
@@ -185,8 +201,8 @@ nav ul li a {
 .approach--txt_top h2 {
     font-family: var(--primary-font);
     font-style: normal;
-    font-weight: 700;
-    font-size: 3.5rem;
+    font-weight: 500;
+    font-size: 2.5rem;
     color: var(--primary-color);
 }
 
@@ -226,23 +242,23 @@ nav ul li a {
 .testimonial--txt h3 {
     font-family: var(--primary-font);
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 1.4rem;
     color: var(--secondary-color);
 }
 
 .testimonial--txt h2 {
     font-family: var(--other-font);
     font-style: normal;
-    font-weight: 700;
-    font-size: 3.2rem;
+    font-weight: 500;
+    font-size: 2.2rem;
     color: var(--primary-color);
 }
 
 .testimonial--txt h4 {
     font-family: var(--other-font);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1.1rem;
     color: var(--secondary-color);
 }
@@ -278,7 +294,7 @@ nav ul li a {
     font-size: 16.8984px;
     line-height: 28px;
     color: #FFFFFF;
-    
+
 }
 
 
@@ -304,7 +320,7 @@ nav ul li a {
     background: var(--primary-color);
 }
 
-.footer .content{
+.footer .content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -313,7 +329,7 @@ nav ul li a {
     width: 100%;
 }
 
-.footer .column{
+.footer .column {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -327,11 +343,12 @@ nav ul li a {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 21.33px;;
+    gap: 21.33px;
+    ;
     background: var(--primary-color);
 }
 
-.footer .social--links{
+.footer .social--links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -345,11 +362,11 @@ nav ul li a {
     width: 25%;
 } */
 
-.footer--nav{
+.footer--nav {
     padding-top: 6rem;
 }
 
-.footer--nav ul{
+.footer--nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -358,33 +375,33 @@ nav ul li a {
     gap: 28.44px;
 }
 
-.footer--nav ul li{
+.footer--nav ul li {
     list-style: none;
 }
 
-.footer--nav ul li a{
-    font-family: 'Roboto';
+.footer--nav ul li a {
+    font-family: var(--other-font);
     font-style: normal;
     font-weight: 600;
-    font-size: 14.2222px;
+    font-size: .85rem;
     line-height: 150%;
     color: #F9FAFC;
     text-decoration: none;
 }
 
-.footer .actions{
+.footer .actions {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-top: .5rem;
-    gap: 14.22px;
+    gap: .87rem;
 }
 
-.footer .actions h2{
-    font-family: 'Roboto';
+.footer .actions h2 {
+    font-family: var(--other-font);
     font-style: normal;
     font-weight: 600;
-    font-size: 14.2222px;
+    font-size: .87rem;
     line-height: 150%;
     color: #F9FAFC;
 }
@@ -400,15 +417,22 @@ nav ul li a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10.6667px;
-    width: 246.33px;
-    height: 42.67px;
-    background: #FFFFFF;
+    padding: .7rem;
+    background: var(--secondary-color);
     border: 0.888889px solid #F9FAFC;
 }
 
 
-.btn_cta{
+input:focus,
+input:active {
+    outline: none;
+    border: 2px solid #FF8700;
+    border-radius: .5rem;
+}
+
+
+
+.btn_cta {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -428,12 +452,18 @@ nav ul li a {
     margin-left: 1.5rem;
 }
 
-hr{
+.btn_cta:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: .5rem;
+}
+
+hr {
     width: 100%;
 }
 
 
- .rows{
+.rows {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -443,7 +473,7 @@ hr{
     width: 100%;
 }
 
-.rows h2{
+.rows h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -453,7 +483,7 @@ hr{
 }
 
 
-.footer--nav1 ul{
+.footer--nav1 ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -462,11 +492,11 @@ hr{
     gap: 28.44px;
 }
 
-.footer--nav1 ul li{
+.footer--nav1 ul li {
     list-style: none;
 }
 
-.footer--nav1 ul li a{
+.footer--nav1 ul li a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
