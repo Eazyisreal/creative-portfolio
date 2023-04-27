@@ -4,11 +4,11 @@
 
 @media only screen and (max-width: 475px) {
   /* styles for smaller  mobile devices */
-  .container{
+  /* .container{
     display: none;
-  }
+  } */
 
-  .unc {
+  /* .unc {
     display: flex;
     background: url(../img/bg.svg);
     min-height: 100vh;
@@ -35,13 +35,111 @@
     padding: 3rem;
     font-family: var(--primary-font);
     color: var(--secondary-color);
-  }
+  } */
+
+  .cta {
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn, .btn1{
+  font-size:.87rem;
+}
+
+.approach--txt_top h2 {
+  font-size: 2rem;
+}
+
+.approach--txt_top h3 {
+  font-size: .8rem;
+}
+
+.approach--txt_bottom p {
+  font-size: .8rem;
+  line-height: 1.75rem;
+}
+
+.testimonial--txt h3 {
+  font-size: 1rem;
+}
+
+.testimonial--txt h4 {
+ font-size: .5rem;
+}
+
+.testimonial--item h2 {
+  
+  font-size: .87rem;
+  font-weight: 300;
+ 
+}
+
+.footer--nav1 ul li a {
+  font-size: .6rem;
+}
+
+.project--item_detail h2 {
+  font-size: 1.3rem;
+}
+
+.project--item_detail h3 {
+  font-size: 1rem;
+}
+
+.hero1 h2{
+  font-size: 1rem;
+}
+
+.hero1 h4{
+  font-size: .62rem;
+  padding: .6rem;
+  line-height: 1rem;
+}
+
+.mission h2, .vision h2{
+  font-size: 1rem;
+  text-align: none;
+}
+
+.mission, .vision{
+  align-items: flex-start;
+  padding: 1.5rem 0;
+  gap: .8rem;
+}
+
+.vision{
+  align-items: flex-start;
+  padding: 1.5rem 0;
+  gap: .8rem;
+}
+
+.mission p, .vision p{
+  text-align: justify;
+  font-size: .7rem;
+}
+
+.team{
+  padding: 0;
+}
+
+.hero2 h2{
+  font-size: 1rem;
+}
 }
 
 @media only screen and (max-width: 600px) {
   /* styles for mobile devices */
   nav {
     display: none;
+  }
+
+  .team-mates {
+    flex-direction: column;
+  }
+
+  .project--row{
+    flex-direction: column;
+    padding-bottom:.7rem;
   }
 
   .hero, .hero1, .hero2 {
@@ -68,19 +166,17 @@
 @media only screen and (max-width: 830px) {
   /* styles for tablets */
 
+  .rows {
+    flex-direction: column;
+    align-items: center;
+}
+
    .hero1, .hero {
     padding: 3rem 0;
-    min-height: 40vh;
   }
 
-  .hero1 h2, .hero2 h2, .mission h2, .vision h2, .team h2{
+   .team h2{
     font-size: 2rem;
-  }
-
-  .mission p , .vision p{
-    font-size: 1.2rem;
-    text-align: left;
-    line-height: 2rem;
   }
 
   .approach {
@@ -91,11 +187,7 @@
     gap: 1rem;
   }
 
-  .approach--txt_bottom p {
-    line-height: 1rem;
-    text-align: left;
-    font-size: 1rem;
-  }
+
   .approach--txt_top,
   .approach--txt_bottom {
     gap: 0.5rem;
@@ -104,13 +196,16 @@
   .approach,
   .approach1 {
     gap: 1.5rem;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .testimonial--txt h2 {
-    font-size: 1.5rem;
+font-size: 1.3rem;
   }
-
+  
+  .footer{
+    padding: 1rem;
+  }
   .footer .content{
     flex-direction: column;
   }
@@ -123,13 +218,46 @@
 }
 
 .footer--nav {
-  padding: 2rem;
+  display: none;
+}
+
+.footer .form {
+  flex-direction: column;
   width: 100%;
+  align-items: center;
+  gap: 1.2rem;
 }
 
 .footer .actions {
   width: 100%;
 }
+
+.footer .actions h2 {
+  display: none;
+}
+
+
+.btn_cta{
+  justify-content: center;
+  align-items: center;
+  padding: 0.67rem 1.33rem;
+  gap: 0.45rem;
+  border: 0.056rem solid #F9FAFC;
+  border-radius:.5rem;
+}
+
+.form input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10.6667px;
+  width: 53%;
+  height: 42.67px; 
+  background: #FFFFFF;
+  border: 0.888889px solid #F9FAFC;
+  border-radius: 8px;
+}
+
 
 .call{
   flex-direction: column;
@@ -147,11 +275,7 @@
 @media only screen and (max-width: 1024px) {
   /* styles for laptops */
 
-  .approach--txt_bottom p {
-    text-align: left;
-    line-height: 2rem;
-    font-size: 1.2rem;
-  }
+ 
 
   .approach,
   .approach1 {
@@ -165,16 +289,10 @@
   }
 
   .hero h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2rem;
   }
 
-  .approach--txt_top h3 {
-    font-size: 1.2rem;
-  }
-
-  .approach--txt_top h2 {
-    font-size: 2.5rem;
-  }
+ 
 
 }

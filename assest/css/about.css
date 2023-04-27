@@ -6,7 +6,7 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 600;
-    font-size: 2.7rem;
+    font-size: 2rem;
     /* line-height: 3rem; */
     text-align: center;
     color: var(--primary-color);
@@ -35,11 +35,11 @@
 }
 
 
-.mission h2{
+.mission h2, .vision h2{
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--primary-color);
 }
@@ -48,10 +48,10 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    text-align: justify;
     color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
 }
 
 
@@ -68,7 +68,7 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--primary-color);
 }
@@ -77,9 +77,9 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: left;
     color: var(--secondary-color);
 }
 
@@ -156,7 +156,7 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
     /* line-height: 3rem; */
     text-align: center;
     color: var(--secondary-color);

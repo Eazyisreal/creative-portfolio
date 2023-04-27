@@ -221,8 +221,10 @@ nav ul li a:hover {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 300;
-  font-size: 1.5rem;
   color: var(--secondary-color);
+  text-align: left;
+  line-height: 2rem;
+  font-size: 1.2rem;
 }
 
 .approach img {
@@ -360,6 +362,7 @@ nav ul li a:hover {
 .footer .footer--logo img {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: flex-start;
   padding: 0px;
   gap: 21.33px;
@@ -423,6 +426,8 @@ nav ul li a:hover {
   line-height: 150%;
   color: #f9fafc;
 }
+
+
 
 .footer .form {
   display: flex;
