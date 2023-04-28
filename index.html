@@ -5,9 +5,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Base Url -->
     <base href="https://eazyisreal.github.io/creative-portfolio/">
-    <!-- Page Title -->
-    <title>Creative Agency Portfolio| Home</title>
+    <!-- FavIcons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assest/img/logo.svg" />
+    <link rel="icon" type="image/svg" sizes="32x32" href="assest/img/logo.svg" />
+    <link rel="icon" type="image/svg" sizes="16x16" href="assest/img/logo.svg" />
+    <link rel="manifest" href="/ste.webmanifest" />
+    <!-- Theme color -->
+    <meta name="theme-color" content="#e97001" />
+    <meta name="robots" content="index, follow" />
+    <!-- Page description -->
+    <meta name="description" content="Welcome to our creative agency portfolio!
+         We specialize in digital product design and development,
+         as well as digital marketing. 
+         Explore our portfolio to see how we can help bring your brand to life online" />
+    <!--KeyWords  -->
+    <meta name="keywords" content="creative agency, portfolio,
+         digital products, design,
+        development, digital marketing, 
+        branding, user experience,
+         web design, app development, 
+         social media marketing, SEO,
+          digital advertising, graphic design,
+          content creation." />
+    <!-- Website Open graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Creative Agency Portfolio | Digital Product Design & Development" />
+    <meta property="og:description"
+        content="Explore our portfolio and see how our creative agency can help you bring your brand to life online. We specialize in digital product design and development, as well as digital marketing." />
+    <meta property="og:image" content="assest/img/logo.svg" />
+    <meta property="og:site_name" content="22nine06 Creative Agency" />
+    <!-- Twitter Open graph -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Creative Agency Portfolio | Digital Product Design & Development" />
+    <meta property="twitter:description"
+        content="Explore our portfolio and see how our creative agency can help you bring your brand to life online. We specialize in digital product design and development, as well as digital marketing." />
+    <meta property="twitter:image" content="assest/img/logo.svg" />
+    <!--Page Title -->
+    <title>22nine06 Creative Agency Portfolio| Home</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./assest/css/style.css" />
     <link rel="stylesheet" href="./assest/css/responsiveness.css" />
@@ -263,13 +299,14 @@
         // Select the element to animate
         const text = document.querySelector('.unc');
         const t = document.querySelector('.unc--text');
-    
+
         // Create a new gsap animation
         gsap.from(text, { duration: 1, opacity: 0, y: 50 })
             .to(text, { duration: 1, opacity: 1, y: 0 });
-    
+
         gsap.fromTo(t, { x: -200, opacity: 0 }, { duration: 1.5, x: 0, opacity: 1 });
     </script>
 
 </body>
+
 </html>
