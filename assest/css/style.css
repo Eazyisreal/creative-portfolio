@@ -103,7 +103,7 @@ body {
   .harmburger {
       display: block;
       position: absolute;
-      top: 2.2rem;
+      top: 3.5rem;
       left: 90%;
   }
 
@@ -137,11 +137,11 @@ body {
   .nav__links.active {
 
       left: 0;
+      top: 15%;
       display: flex;
       flex-direction: column;
       gap: 2rem;
       padding: 1.5rem 0;
-      z-index: 1;
   }
 
   #cta.active {
@@ -191,11 +191,11 @@ body {
 .hero h2 {
   font-family: var(--primary-font);
   font-style: normal;
-  font-weight: 600;
-  font-size: 3rem;
-  line-height: 3rem;
   text-align: center;
   color: var(--secondary-color);
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 500;
 }
 
 .hero h4 {

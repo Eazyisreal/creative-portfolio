@@ -4,38 +4,41 @@
 
 @media only screen and (max-width: 475px) {
   /* styles for smaller  mobile devices */
-  /* .container{
-    display: none;
-  } */
 
-  /* .unc {
+  .header img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero h4 {
+    font-size:.8rem;
+  }
+
+  .cta a {
+    text-decoration: none;
     display: flex;
-    background: url(../img/bg.svg);
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-position: right;
-    flex-direction: column;
+    width: 100%;
+    align-items: center;
     justify-content: center;
 }
 
-  .unc h1{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    text-align: center;
-    padding: 3rem;
-    color: var(--secondary-color);
-    text-transform: uppercase;
+  .rows h2{
+    font-size: .7rem;
+    font-weight: 300;
   }
-  .unc p{
-    font-size: 1.37rem;
-    font-weight: 200;
-    padding: 3rem;
-    font-family: var(--primary-font);
-    color: var(--secondary-color);
-  } */
+
+  .contact-form_info label{
+    font-size: .8rem;
+  }
+
+  .hero h2{
+    font-size: 1.5rem;
+  }
+
+  .call--column h5{
+    font-size: .7rem;
+    font-weight: 500;
+  }
 
   .cta {
     flex-direction: column;
@@ -139,7 +142,7 @@
 
   .project--row{
     flex-direction: column;
-    padding-bottom:.7rem;
+    padding:  .7rem 0;
   }
 
   .hero, .hero1, .hero2 {
@@ -282,16 +285,7 @@ font-size: 1.3rem;
     gap: 1.5rem;
   }
 
-  .hero h2 {
-    font-size: 2rem;
-    line-height: 2rem;
-    font-weight: 500;
-  }
 
-  .hero h4 {
-    font-size: 1rem;
-    padding: 2rem;
-  }
 
  
 
