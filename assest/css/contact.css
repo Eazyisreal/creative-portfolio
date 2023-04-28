@@ -66,6 +66,7 @@
     height: 4rem;
     background: #FFFFFF;
     border-radius: 8px;
+    outline: none;
 }
 
 textarea{
@@ -74,6 +75,7 @@ textarea{
     background: #FFFFFF;
     border-radius: 8px;
     margin-bottom: 1.2rem;
+    outline: none;
 }
 
 .column{

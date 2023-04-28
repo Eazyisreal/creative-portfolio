@@ -30,6 +30,10 @@
   .contact-form_info label{
     font-size: .8rem;
   }
+  
+  .contact-form_info{
+    gap: .8rem;
+  }
 
   .hero h2{
     font-size: 1.5rem;
