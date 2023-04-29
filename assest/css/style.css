@@ -383,6 +383,10 @@ body {
   color: var(--secondary-color);
 }
 
+.testimonial--carousel::-webkit-scrollbar{
+  display: none !important
+}
+
 .testimonial--carousel {
   display: flex;
   flex-direction: row;
