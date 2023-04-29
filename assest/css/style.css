@@ -412,23 +412,21 @@ body {
 }
 
 .testimonial--item h2 {
-  font-family: "Poppins";
+  font-family: var(--other-font);
   font-style: normal;
   font-weight: 500;
-  font-size: 16.8984px;
-  line-height: 28px;
-  color: #ffffff;
+  font-size: 1.02rem;
+  color:var(--secondary-color);
 }
 
 .testimonial--item h3 {
-  font-family: "Poppins";
+  font-family: var(--other-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 16.8984px;
-  line-height: 28px;
+  font-size: 1.02rem;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 
 /* footer */
@@ -564,7 +562,7 @@ input:active {
   height: 42.33px;
   border: 0.888889px solid #f9fafc;
   background: transparent;
-  font-family: "Roboto";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14.2222px;
@@ -581,6 +579,7 @@ input:active {
   transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
 }
 
+
 hr {
   width: 100%;
 }
@@ -596,7 +595,7 @@ hr {
 }
 
 .rows h2 {
-  font-family: "Roboto";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 12.4444px;
@@ -618,7 +617,7 @@ hr {
 }
 
 .footer--nav1 ul li a {
-  font-family: "Roboto";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 12.4444px;
