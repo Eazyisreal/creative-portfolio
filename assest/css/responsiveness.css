@@ -1,6 +1,4 @@
-@media only screen and (min-width: var(--wristwatch)) {
-  /* styles for wristwatches */
-}
+
 
 @media only screen and (max-width: 475px) {
   /* styles for smaller  mobile devices */
@@ -30,7 +28,7 @@
   .contact-form_info label{
     font-size: .8rem;
   }
-  
+
   .contact-form_info{
     gap: .8rem;
   }
@@ -54,7 +52,7 @@
 }
 
 .approach--txt_top h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .approach--txt_top h3 {
@@ -258,7 +256,7 @@ font-size: 1.3rem;
   flex-direction: row;
   align-items: center;
   padding: 10.6667px;
-  width: 53%;
+  width: 63%;
   height: 42.67px; 
   background: #FFFFFF;
   border: 0.888889px solid #F9FAFC;
