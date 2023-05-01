@@ -71,19 +71,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet" />
-    <!-- Gsap CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" defer ></script>
 </head>
 
 <body>
-    <!-- Under Construction page  -->
-    <div class="unc ">
-        <h1 class="unc--text">Coming Soon !!!</h1>
-        <p class="unc--text">Our Mobile Screens are under construction. <br> Move over to desktop</p>
-
-    </div>
-
     <!-- Container -->
     <div class="container">
         <!-- Header  -->
@@ -117,7 +107,7 @@
             <!-- Hero -->
             <section class="hero">
                 <div>
-                    <h2>We design and build world-class web and mobile products</h2>
+                    <h2 id="hero">We design and build world-class web and mobile products</h2>
                     <h4>Designing digital solutions for your business success.</h4>
                     <!-- CTA's -->
                     <div class="cta">
@@ -134,7 +124,8 @@
                         <h2>Digital Strategy</h2>
                     </div>
                     <div class="approach--txt_bottom">
-                        <p>A solid strategy is essential for success. At our agency, we recognize the value of not just
+                        <p class="approach--txt_bottom-p">A solid strategy is essential for success. At our agency, we
+                            recognize the value of not just
                             having a strategy, but being able to effectively execute it. Our clients rely on our
                             experience to tackle both present and future challenges. While we can't predict the future,
                             we are skilled at pushing boundaries and leveraging technology to help you overcome
@@ -144,7 +135,8 @@
                         </div>
                     </div>
                 </div>
-                <img  loading="lazy" src="./assest/img/approach.svg" alt="A team which ncludes 3 females and 1 male employee" srcset="">
+                <img loading="lazy" class="image" src="./assest/img/approach.svg"
+                    alt="A team which ncludes 3 females and 1 male employee" srcset="">
             </section>
 
             <section class="approach1">
@@ -165,7 +157,8 @@
                         </div>
                     </div>
                 </div>
-                <img loading="lazy" src="./assest/img/smb.svg" alt="4 developers working together in a room"   srcset="">
+                <img loading="lazy" class="image" src="./assest/img/smb.svg"
+                    alt="4 developers working together in a room" srcset="">
             </section>
 
             <section class="approach">
@@ -185,7 +178,8 @@
                         </div>
                     </div>
                 </div>
-                <img loading="lazy" src="./assest/img/managed.svg" alt="A woman explaining some concepts to her colleagues"  srcset="">
+                <img loading="lazy" class="image" src="./assest/img/managed.svg"
+                    alt="A woman explaining some concepts to her colleagues" srcset="">
             </section>
 
             <section class="testimonials">
@@ -196,42 +190,42 @@
                 </div>
                 <div class="testimonial--carousel">
                     <div class="testimonial--item">
-                        <img loading="lazy" src="./assest/img/star.svg"  alt="An array of green star image">
+                        <img loading="lazy" src="./assest/img/star.svg" alt="An array of green star image">
                         <h2>This was the best experience ever. They replied immediately. Highly recommend this
                             company</h2>
                         <h3>John Paul</h3>
                     </div>
 
                     <div class="testimonial--item">
-                        <img loading="lazy" src="./assest/img/star.svg"   alt="An array of green star image">
+                        <img loading="lazy" src="./assest/img/star.svg" alt="An array of green star image">
                         <h2>This was the best experience ever. They replied immediately. Highly recommend this
                             company</h2>
                         <h3>John Paul</h3>
                     </div>
 
                     <div class="testimonial--item">
-                        <img loading="lazy" src="./assest/img/star.svg"  " alt="An array of green star image">
+                        <img loading="lazy" src="./assest/img/star.svg" " alt=" An array of green star image">
                         <h2>This was the best experience ever. They replied immediately. Highly recommend this
                             company</h2>
                         <h3>John Paul</h3>
                     </div>
 
                     <div class="testimonial--item">
-                        <img loading="lazy" src="./assest/img/star.svg"  alt="An array of green star image">
+                        <img loading="lazy" src="./assest/img/star.svg" alt="An array of green star image">
                         <h2>This was the best experience ever. They replied immediately. Highly recommend this
                             company</h2>
                         <h3>John Paul</h3>
                     </div>
 
                     <div class="testimonial--item">
-                        <img loading="lazy" src="./assest/img/star.svg"  alt="An array of green star image">
+                        <img loading="lazy" src="./assest/img/star.svg" alt="An array of green star image">
                         <h2>This was the best experience ever. They replied immediately. Highly recommend this
                             company</h2>
                         <h3>John Paul</h3>
                     </div>
 
                     <div class="testimonial--item">
-                        <img loading="lazy" src="./assest/img/star.svg"  " alt="An array of green star image">
+                        <img loading="lazy" src="./assest/img/star.svg" " alt=" An array of green star image">
                         <h2>This was the best experience ever. They replied immediately. Highly recommend this
                             company</h2>
                         <h3>John Paul</h3>
@@ -242,26 +236,32 @@
                 <div class="content">
                     <div class="column">
                         <div class="footer--logo">
-                            <img loading="lazy" src="./assest/img/logo.svg"   alt="An array of green star image" />
+                            <img loading="lazy" src="./assest/img/logo.svg" alt="An array of green star image" />
                         </div>
 
                         <div class="social--links">
-                            <img loading="lazy" src="./assest/img/facebook.png"  width="20px" height="20px" alt="Fcebook icon">
-                            <img loading="lazy" src="./assest/img/instagram.png"   width="20px" height="20px"  alt=" instgram icon">
-                            <img loading="lazy" src="./assest/img/twitter.png"  width="20px" height="20px" alt=" Twitter icon">
-                            <img loading="lazy" src="./assest/img/linkedin.png"  width="20px" height="20px"   alt=" Linkedin icon">
+                            <img loading="lazy" src="./assest/img/facebook.png" width="20px" height="20px"
+                                alt="Fcebook icon">
+                            <img loading="lazy" src="./assest/img/instagram.png" width="20px" height="20px"
+                                alt=" instgram icon">
+                            <img loading="lazy" src="./assest/img/twitter.png" width="20px" height="20px"
+                                alt=" Twitter icon">
+                            <img loading="lazy" src="./assest/img/linkedin.png" width="20px" height="20px"
+                                alt=" Linkedin icon">
                         </div>
                     </div>
                     <div class="footer--nav">
                         <ul>
                             <li>
-                                <a href="./assest/html/projects.html" target="_blank" rel="noopener noreferrer">Projects</a>
+                                <a href="./assest/html/projects.html" target="_blank"
+                                    rel="noopener noreferrer">Projects</a>
                             </li>
                             <li>
                                 <a href="./assest/html/about.html" target="_blank" rel="noopener noreferrer"> About </a>
                             </li>
                             <li>
-                                <a href="./assest/html/contact.html" target="_blank" rel="noopener noreferrer"> Contact</a>
+                                <a href="./assest/html/contact.html" target="_blank" rel="noopener noreferrer">
+                                    Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -298,11 +298,57 @@
         </main>
     </div>
     <script src="assest/js/harmburger.js" type="text/javascript"></script>
-    <script>
-        // Select the element to animate
-    
-    </script>
+    <script src="assest/js/script.js" type="text/javascript"></script>
+    <!-- Gsap CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
 
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        const textAnimation = gsap.timeline({
+            defaults: { duration: 1, opacity: 0, y: '10%', stagger: '.008' },
+        });
+
+        const imageAnimation = gsap.timeline({
+            defaults: { duration: 1, opacity: 0, y: '10%', delay: .01, stagger: .8, },
+        });
+
+        textAnimation.from(".hero", { opacity: 0, y: '10rem' })
+
+       
+        // Define the animation for each .approach div
+        function animateApproach(div) {
+            imageAnimation.from(
+                div.querySelector('.image'),
+                { opacity: 0, y: '-10rem' },
+                '<'
+            );
+            textAnimation.from(
+                div.querySelector('.approach--txt_top'),
+                { opacity: 0, y: '-10rem' }
+            );
+            textAnimation.from(
+                div.querySelector('.approach--txt_bottom'),
+                { opacity: 0, y: '10rem' },
+                '<' 
+            );
+           
+        }
+
+        // Use ScrollTrigger to trigger the animation for each .approach div
+        document.querySelectorAll('.approach, .approach1, .image').forEach((div) => {
+            ScrollTrigger.create({
+                trigger: div,
+                start: 'center 100%',
+                onEnter: () => {
+                    animateApproach(div);
+                },
+            });
+        });
+
+
+    </script>
 </body>
 
 </html>

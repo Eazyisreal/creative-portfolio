@@ -8,6 +8,10 @@
     height: 100px;
   }
 
+  .hero{
+    min-height: 100vh;
+  }
+
   .hero h4 {
     font-size:.8rem;
   }
