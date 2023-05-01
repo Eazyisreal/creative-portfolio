@@ -129,6 +129,7 @@ body {
       display: flex;
       align-items: center;
       transition: all 0.3s ease 0s;
+      z-index: 1;
   }
 
   .nav__links.active {
@@ -139,6 +140,7 @@ body {
       flex-direction: column;
       gap: 2rem;
       padding: 1.5rem 0;
+      z-index: 1;
   }
 
   #cta.active {
@@ -163,19 +165,6 @@ body {
       text-transform: uppercase;
   }
   
-
-  /* .nav__links li a {
-      font-size: 1.5rem;
-      font-weight: 500;
-      font-family: 'Work Sans', sans-serif;
-      font-style: normal;
-      line-height: 1.75rem;
-      transition: all 0.3s ease 0s;
-      color: #0E0F0E;
-      margin: 1.75rem;
-      text-transform: uppercase;
-
-  } */
 }
 
 /* Hero */

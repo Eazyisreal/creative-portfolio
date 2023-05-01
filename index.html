@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Set caching headers for 1 year -->
-    <meta http-equiv="Cache-Control" content="max-age=31536000">
-    <meta http-equiv="Expires" content="Tue, 28 Apr 2024 00:00:00 GMT">
+    <!-- <meta http-equiv="Cache-Control" content="max-age=31536000">
+    <meta http-equiv="Expires" content="Tue, 28 Apr 2024 00:00:00 GMT"> -->
     <!-- Base Url -->
     <base href="https://eazyisreal.github.io/creative-portfolio/">
     <!-- FavIcons -->
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <img loading="lazy" class="image" src="./assest/img/approach.svg"
+                <img  class="image" src="./assest/img/approach.svg"
                     alt="A team which ncludes 3 females and 1 male employee" srcset="">
             </section>
 
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <img loading="lazy" class="image" src="./assest/img/smb.svg"
+                <img  class="image" src="./assest/img/smb.svg"
                     alt="4 developers working together in a room" srcset="">
             </section>
 
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <img loading="lazy" class="image" src="./assest/img/managed.svg"
+                <img  class="image" src="./assest/img/managed.svg"
                     alt="A woman explaining some concepts to her colleagues" srcset="">
             </section>
 
@@ -313,8 +313,9 @@
         const imageAnimation = gsap.timeline({
             defaults: { duration: 1, opacity: 0, y: '10%', delay: .01, stagger: .8, },
         });
-
-        textAnimation.from(".hero", { opacity: 0, y: '10rem' })
+        textAnimation.from(" .header, ,harmburger ", { opacity: 0, y: '10rem', ease:"bounce" })
+        textAnimation.from(".hero, .header, ,harmburger ", { opacity: 0, y: '10rem' })
+        
 
        
         // Define the animation for each .approach div
