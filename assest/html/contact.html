@@ -9,10 +9,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assest/img/logo.svg" />
     <link rel="icon" type="image/svg" sizes="32x32" href="assest/img/logo.svg" />
     <link rel="icon" type="image/svg" sizes="16x16" href="assest/img/logo.svg" />
-     <!-- Page description -->
-     <meta name="description" content="Contact our creative agency to learn more about our services and how we can help bring your brand to life online. We're here to answer any questions you may have and work with you to achieve your business goals." />
+    <!-- Page description -->
+    <meta name="description"
+        content="Contact our creative agency to learn more about our services and how we can help bring your brand to life online. We're here to answer any questions you may have and work with you to achieve your business goals." />
     <!--KeyWords  -->
-    <meta name="keywords" content="creative agency, contact us, services, digital product design, development, branding, user experience, web design, app development, social media marketing, SEO, digital advertising, graphic design, content creation." />
+    <meta name="keywords"
+        content="creative agency, contact us, services, digital product design, development, branding, user experience, web design, app development, social media marketing, SEO, digital advertising, graphic design, content creation." />
     <!-- Theme color -->
     <meta name="theme-color" content="#e97001" />
     <meta name="robots" content="index, follow" />
@@ -62,7 +64,7 @@
 </head>
 
 <body>
-    
+
     <!-- Container -->
     <div class="container">
 
@@ -102,63 +104,77 @@
                         <div class="column">
                             <div class="call--column">
                                 <h4>Call Us</h2>
-                                <h5>+2341 234 5678</h5>
+                                    <h5>+2341 234 5678</h5>
                             </div>
-    
+
                             <div class="call--column">
                                 <h4>Visit Us</h2>
-                                <h5>J976+XR2, Oregun 101233, Lagos State, Nigeria</h5>
+                                    <h5>J976+XR2, Oregun 101233, Lagos State, Nigeria</h5>
                             </div>
                         </div>
 
 
-                       <div class="contact-form_row">
+                        <div class="contact-form_row">
 
-                        <div class="contact-form">
-                            <div class="contact-form_info">
-                                <label for="firstname">First Name <span>*</span></label>
-                                <input type="text" name="firstname" id=""  required>
+                            <div class="contact-form">
+                                <div class="contact-form_info">
+                                    <label for="firstname">First Name <span>*</span></label>
+                                    <input type="text" name="firstname" id="contact-name" required>
+                                    <span id="name-error"></span>
+                                </div>
+
+                                <div class="contact-form_info">
+                                    <label for="lastname">Last Name <span>*</span></label>
+                                    <input type="text" name="lastname" id="" required>
+                                    <span id="name-error"></span>
+
+                                </div>
                             </div>
 
-                            <div class="contact-form_info">
-                                <label for="lastname">Last Name <span>*</span></label>
-                                <input type="text" name="lastname" id=""  required>
+                            <div class="contact-form">
+                                <div class="contact-form_info">
+                                    <label for="email">Email Address <span>*</span></label>
+                                    <input type="email" name="email address" id="contact-email" required>
+                                    <span id="email-error"></span>
+
+                                </div>
+
+                                <div class="contact-form_info">
+                                    <label for="budget">Budget</label>
+                                    <input type="text" name="budget" id="contact-message">
+                                    <span id="message-error"></span>
+
+                                </div>
                             </div>
+
+                            <div class="contact-form">
+                                <div class="contact-form_info">
+                                    <label for="firstname">Organisation (if any)</label>
+                                    <input type="text" name="Organisation" id="contact-message">
+                                    <span id="message-error"></span>
+
+                                </div>
+
+                                <div class="contact-form_info">
+                                    <label for="lastname">Phone Number</label>
+                                    <input type="tel" name="phone number" id="contact-phone">
+                                    <span id="phone-error"></span>
+
+                                </div>
+                            </div>
+
+
+                            <div class="contact-form_info">
+                                <label for="lastname">Project Description</label>
+                                <textarea name="project description" id="contact-message" cols="30"
+                                    rows="10"></textarea>
+                                <span id="message-error"></span>
+
+                            </div>
+
+                            <a href=""><button class="btn">Submit</button></a>
+
                         </div>
-
-                        <div class="contact-form">
-                            <div class="contact-form_info">
-                                <label for="firstname">Email Address <span>*</span></label>
-                                <input type="text" name="firstname" id=""  required>
-                            </div>
-
-                            <div class="contact-form_info">
-                                <label for="lastname">Budget</label>
-                                <input type="text" name="lastname" id=""  >
-                            </div>
-                        </div>
-
-                        <div class="contact-form">
-                            <div class="contact-form_info">
-                                <label for="firstname">Organisation (if any)</label>
-                                <input type="text" name="firstname" id=""  >
-                            </div>
-
-                            <div class="contact-form_info">
-                                <label for="lastname">Phone Number</label>
-                                <input type="text" name="lastname" id=""  >
-                            </div>
-                        </div>
-
-                        
-                        <div class="contact-form_info">
-                            <label for="lastname">Project Description</label>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                        </div>
-
-                        <a href=""><button class="btn">Submit</button></a>
-
-                       </div>
                     </div>
                 </div>
             </section>
@@ -168,13 +184,13 @@
             <div class="content">
                 <div class="column">
                     <div class="footer--logo">
-                        <img  loading="lazy" src="../img/logo.svg" alt="" />
+                        <img loading="lazy" src="../img/logo.svg" alt="" />
                     </div>
 
                     <div class="social--links">
                         <img loading="lazy" src="../img/facebook.png" alt="">
                         <img loading="lazy" src="../img/instagram.png" alt="">
-                        <img  loading="lazy" src="../img/twitter.png" alt="">
+                        <img loading="lazy" src="../img/twitter.png" alt="">
                         <img loading="lazy" src="../img/linkedin.png" alt="">
                     </div>
                 </div>
@@ -226,6 +242,8 @@
     </div>
 
     <script src="../js/harmburger.js" type="text/javascript"></script>
+    <script src="../js/script.js" type="text/javascript"></script>
+
 </body>
 
 </html>
