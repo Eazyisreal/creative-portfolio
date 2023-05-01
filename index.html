@@ -314,14 +314,15 @@
             defaults: { duration: 1, opacity: 0, y: '10%', delay: .01, stagger: .8, },
         });
         textAnimation.from(".hero", { opacity: 0, y: '10rem', ease:"bounce"  })
-        
+        textAnimation.from(".testimonial--carousel", { opacity: 0, y: '10rem', ease:"bounce"  })
+
 
        
         // Define the animation for each .approach div
         function animateApproach(div) {
             imageAnimation.from(
                 div.querySelector('.image'),
-                { opacity: 0, y: '-10rem' },
+                { opacity: 1, y: '-10rem' },
                 '<'
             );
             textAnimation.from(
@@ -333,11 +334,17 @@
                 { opacity: 0, y: '10rem' },
                 '<' 
             );
+
+            textAnimation.from(
+                div.querySelector('.testimonial--txt'),
+                { opacity: 0, y: '10rem' },
+                '<' 
+            );
            
         }
 
         // Use ScrollTrigger to trigger the animation for each .approach div
-        document.querySelectorAll('.approach, .approach1, .image').forEach((div) => {
+        document.querySelectorAll('.approach, .approach1, .approach img, .testimonial').forEach((div) => {
             ScrollTrigger.create({
                 trigger: div,
                 start: 'center 100%',
