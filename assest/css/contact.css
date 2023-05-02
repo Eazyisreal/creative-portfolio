@@ -1,7 +1,7 @@
 .call {
   display: flex;
   align-items: flex-start;
-  padding: 1.2rem;
+  padding: 5rem 0;
   gap: 2.5rem;
 }
 
