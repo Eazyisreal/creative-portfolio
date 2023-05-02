@@ -286,8 +286,5 @@
     justify-content: flex-end;
   }
 
-  .approach--txt_bottom p {
-    text-align: left;
-    line-height: 1.8;
-  }
+
 }
