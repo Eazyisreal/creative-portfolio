@@ -97,3 +97,20 @@ span {
 a {
   text-decoration: none;
 }
+
+.contact_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.22rem;
+  width: 100%;
+  height: 3.89rem;
+  background: var(--primary-color);
+  border-radius: 0.61rem;
+  border: none;
+  font-size: 1.37rem;
+  font-weight: 600;
+  font-family: var(--noto-font);
+  color: var(--secondary-color);
+  transition: 0.2s;
+}

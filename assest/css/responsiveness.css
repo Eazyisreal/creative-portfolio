@@ -117,7 +117,6 @@
   .mission,
   .vision {
     align-items: flex-start;
-  
     gap: 0.8rem;
   }
 
@@ -152,7 +151,7 @@
   .hero,
   .hero1,
   .hero2 {
-    padding: 3rem 0;
+    padding: 3rem ;
     /* min-height: 40vh; */
   }
   .contact-form {
@@ -178,9 +177,9 @@
     align-items: center;
   }
 
-  .hero1,
-  .hero {
-    padding: 3rem 0;
+  .hero1
+   {
+    padding: 3rem ;
   }
 
   .hero h2 {
