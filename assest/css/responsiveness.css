@@ -171,6 +171,9 @@
 
 @media only screen and (max-width: 950px) {
   /* styles for tablets */
+  .hero4{
+    padding: 0;
+  }
 
   .rows {
     flex-direction: column;

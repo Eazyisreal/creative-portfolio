@@ -162,7 +162,7 @@ body {
 /* Hero */
 
 .hero,
-.hero2 {
+.hero2, .hero4 {
   padding: 6rem;
   background: url(../img/bg.svg) !important;
   background-repeat: no-repeat;
