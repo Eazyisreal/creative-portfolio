@@ -21,10 +21,9 @@
   text-transform: capitalize;
 }
 
-.mission {
+.mission, .vision {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 2.5rem;
   gap: 2.5rem;
 }
@@ -35,11 +34,11 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
   color: var(--primary-color);
 }
 
-.mission p {
+.mission p , .vision p {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
@@ -49,32 +48,7 @@
   line-height: 2rem;
 }
 
-.vision {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2.5rem;
-  gap: 2.5rem;
-}
 
-.vision h2 {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2rem;
-  text-align: center;
-  color: var(--primary-color);
-}
-
-.vision p {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  text-align: left;
-  color: var(--secondary-color);
-}
 
 .team {
   display: flex;
@@ -120,7 +94,6 @@
 
 .team-mate:hover {
   transform: scale(1.1) translateX(1.5rem);
-  transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .team-mate h4 {

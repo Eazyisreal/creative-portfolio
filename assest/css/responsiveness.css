@@ -117,13 +117,7 @@
   .mission,
   .vision {
     align-items: flex-start;
-    padding: 1.5rem 0;
-    gap: 0.8rem;
-  }
-
-  .vision {
-    align-items: flex-start;
-    padding: 1.5rem 0;
+  
     gap: 0.8rem;
   }
 
@@ -133,9 +127,7 @@
     font-size: 0.7rem;
   }
 
-  .team {
-    padding: 0;
-  }
+
 
   .hero2 h2 {
     font-size: 1rem;
