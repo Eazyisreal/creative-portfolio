@@ -41,7 +41,7 @@
     gap: 0.8rem;
   }
 
-  .small {
+  .hero #small {
     font-size: 1.5rem;
   }
 
@@ -152,10 +152,14 @@
   .hero1,
   .hero2 {
     padding: 3rem ;
-    /* min-height: 40vh; */
   }
   .contact-form {
     flex-direction: column;
+  }
+
+   #small {
+    font-size: 2rem;
+    line-height: 1.2;
   }
 
   /* .hero1 h2, .mission h2, .vision h2, .team h2{
@@ -185,10 +189,7 @@
     padding: 3rem ;
   }
 
-  .hero h2 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-  }
+  
 
   .team h2 {
     font-size: 2rem;
@@ -270,7 +271,6 @@
     border: 0.888889px solid #f9fafc;
     border-radius: 8px;
     font-family: var(--primary-font);
-    font-size: 1.5rem;
   }
 
   .call {
