@@ -180,9 +180,13 @@ body {
 
 /* Hero */
 
-.hero {
+.hero, .hero1, .hero2 {
   padding: 6rem;
   background: url(../img/bg.svg) !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .hero h2 {
