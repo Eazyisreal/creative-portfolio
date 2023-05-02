@@ -279,20 +279,12 @@ font-size: 1.3rem;
   flex-direction: row;
 }
 
+
+.footer .social--links {
+ 
+  justify-content: flex-end;
+
 }
 
-@media only screen and (max-width: 1024px) {
-  /* styles for laptops */
-
- 
-
-  .approach,
-  .approach1 {
-    gap: 1.5rem;
-  }
-
-
-
- 
-
 }
+
