@@ -424,6 +424,7 @@ body {
   color:var(--secondary-color);
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .testimonial--item h3 {
@@ -583,7 +584,6 @@ input:active {
 .btn_cta:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
-  border-radius: 0.5rem;
   transform: scale(1.03) translateY(0.06rem);
   transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
 }
