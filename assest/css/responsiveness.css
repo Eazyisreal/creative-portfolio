@@ -162,18 +162,9 @@
     line-height: 1.2;
   }
 
-  /* .hero1 h2, .mission h2, .vision h2, .team h2{
-    font-size: 2rem;
-  }
-
-  .mission p , .vision p{
-    font-size: 1.2rem;
-    text-align: left;
-    line-height: 2rem;
-  } */
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 875px) {
   /* styles for tablets */
   .hero4{
     padding: 0;
