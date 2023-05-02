@@ -1,163 +1,158 @@
-
-
 .hero1 h2 {
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2rem;
-    /* line-height: 3rem; */
-    text-align: center;
-    color: var(--primary-color);
-    text-transform: capitalize;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  /* line-height: 3rem; */
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: capitalize;
 }
 
 .hero1 h4 {
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 350;
-    font-size: 1.3rem;
-    line-height: 2rem;
-    text-align: center;
-    padding: 3rem;
-    color: var(--secondary-color);
-    text-transform: capitalize;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 350;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-align: center;
+  padding: 3rem;
+  color: var(--secondary-color);
+  text-transform: capitalize;
 }
 
-
-.mission{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2.5rem;
-    gap:2.5rem;
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  gap: 2.5rem;
 }
 
-
-.mission h2, .vision h2{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    text-align: center;
-    color: var(--primary-color);
+.mission h2,
+.vision h2 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary-color);
 }
 
-.mission p{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 400;
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-    text-align: left;
-    line-height: 2rem;
+.mission p {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 2rem;
 }
 
-
-.vision{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2.5rem;
-    gap: 2.5rem;
+.vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  gap: 2.5rem;
 }
 
-
-.vision h2{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    text-align: center;
-    color: var(--primary-color);
+.vision h2 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary-color);
 }
 
-.vision p{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    text-align: left;
-    color: var(--secondary-color);
+.vision p {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: left;
+  color: var(--secondary-color);
 }
 
-.team{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2.5rem;
-    gap: 2.5rem;
-    width: 100%;
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  gap: 2.5rem;
+  width: 100%;
 }
 
-.team h2{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.5rem;
-    /* line-height: 49px; */
-    text-align: center;
-    color: var(--primary-color);
+.team h2 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  /* line-height: 49px; */
+  text-align: center;
+  color: var(--primary-color);
 }
 
-.team-mates{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 3rem;
-    width: 100%;
+.team-mates {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3rem;
+  width: 100%;
 }
 
-.team-mate{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 1rem;
-    width: 100%;
+.team-mate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 1rem;
+  width: 100%;
 }
 
-.team-mate img{
-    border-radius: 1rem;
-    width: 100%;
-}       
-
-.team-mate:hover{
-    transform: scale(1.1) translateX(1.5rem);
-    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+.team-mate img {
+  border-radius: 1rem;
+  width: 100%;
 }
 
-.team-mate h4{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-align: justify;
-    color: var(--primary-color);
+.team-mate:hover {
+  transform: scale(1.1) translateX(1.5rem);
+  transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
 }
 
-.team-mate h5{
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    text-align: justify;
-    color:var(--secondary-color);
+.team-mate h4 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: var(--primary-color);
+}
+
+.team-mate h5 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: justify;
+  color: var(--secondary-color);
 }
 
 .hero2 {
-    padding: 6rem;
+  padding: 6rem;
 }
 
 .hero2 h2 {
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    /* line-height: 3rem; */
-    text-align: center;
-    color: var(--secondary-color);
-    text-transform: capitalize;
-    padding-bottom: 1.2rem;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  /* line-height: 3rem; */
+  text-align: center;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+  padding-bottom: 1.2rem;
 }

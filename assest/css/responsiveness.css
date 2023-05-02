@@ -6,10 +6,16 @@
     height: 100px;
   }
 
-  .hero {
+  /* .hero {
     min-height: 100vh;
-  }
+  } */
+.approach, .approach1{
+  padding-top:3rem ;
+}
 
+.testimonials{
+  padding:3rem 0 ;
+}
   .hero h4 {
     font-size: 0.8rem;
   }
@@ -172,7 +178,7 @@
   } */
 }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 950px) {
   /* styles for tablets */
 
   .rows {
@@ -185,7 +191,7 @@
     padding: 3rem 0;
   }
 
-  .hero h2{
+  .hero h2 {
     font-size: 2.5rem;
     line-height: 1.2;
   }
@@ -285,6 +291,4 @@
   .footer .social--links {
     justify-content: flex-end;
   }
-
-
 }
