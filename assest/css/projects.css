@@ -26,7 +26,7 @@
 }
 
 .project--item:hover {
-  transform: scale(1.1) translateX(0.6rem);
+  transform: scale(1.0) translateY(0.6rem);
   transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
 }
 

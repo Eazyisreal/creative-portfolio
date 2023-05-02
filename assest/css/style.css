@@ -68,12 +68,11 @@ body {
   text-decoration: none;
 }
 
-.nav_links ul li a:hover {
+.nav__links ul li a:hover {
   color: var(--primary-color);
-  transform: scale(1.03) translateY(0.06rem);
-  transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
-  text-decoration: underline;
+
 }
+
 /* Harmburger */
 
 .harmburger {
