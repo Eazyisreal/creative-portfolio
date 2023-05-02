@@ -269,6 +269,8 @@
     background: #ffffff;
     border: 0.888889px solid #f9fafc;
     border-radius: 8px;
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
   }
 
   .call {

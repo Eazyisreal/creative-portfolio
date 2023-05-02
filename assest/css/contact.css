@@ -67,6 +67,9 @@
   border-radius: 8px;
   outline: none;
   border: none;
+  padding: 2rem;
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
 }
 
 textarea {
@@ -77,6 +80,9 @@ textarea {
   margin-bottom: 1.2rem;
   outline: none;
   border: none;
+  padding: 2rem;
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
 }
 
 .column {
