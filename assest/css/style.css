@@ -190,15 +190,15 @@ body {
   font-style: normal;
   text-align: center;
   color: var(--secondary-color);
-  font-size: 2rem;
-  line-height: 2rem;
-  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 .hero h4 {
   font-family: var(--primary-font);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
@@ -303,8 +303,8 @@ body {
 .approach--txt_top h3 {
   font-family: var(--primary-font);
   font-style: normal;
-  font-weight: 300;
-  font-size: 1.4rem;
+  font-weight: 400;
+  font-size: 1.5rem;
   color: var(--secondary-color);
   text-transform: uppercase;
 }
@@ -312,8 +312,8 @@ body {
 .approach--txt_top h2 {
   font-family: var(--primary-font);
   font-style: normal;
-  font-weight: 500;
-  font-size: 2.5rem;
+  font-weight: 700;
+  font-size: 3.5rem;
   color: var(--primary-color);
 }
 
@@ -322,9 +322,9 @@ body {
   font-style: normal;
   font-weight: 300;
   color: var(--secondary-color);
-  text-align: left;
+  text-align:justify;
   line-height: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .approach img {
@@ -363,15 +363,15 @@ body {
 .testimonial--txt h3 {
   font-family: var(--primary-font);
   font-style: normal;
-  font-weight: 300;
-  font-size: 1.4rem;
+  font-weight: 400;
+  font-size: 1.5rem;
   color: var(--secondary-color);
 }
 
 .testimonial--txt h2 {
   font-family: var(--other-font);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2.2rem;
   color: var(--primary-color);
 }
@@ -379,7 +379,7 @@ body {
 .testimonial--txt h4 {
   font-family: var(--other-font);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.1rem;
   color: var(--secondary-color);
 }
@@ -403,9 +403,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.1rem;
+  padding: 1.5rem;
   gap: 2.3rem;
-  background: rgba(233, 112, 1, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 22.5313px;
   min-width: 21.5rem;
   scroll-snap-align: start;
@@ -422,6 +422,8 @@ body {
   font-weight: 500;
   font-size: 1.02rem;
   color:var(--secondary-color);
+  display: flex;
+  align-items: center;
 }
 
 .testimonial--item h3 {

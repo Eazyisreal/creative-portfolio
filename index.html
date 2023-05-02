@@ -107,7 +107,7 @@
             <!-- Hero -->
             <section class="hero">
                 <div>
-                    <h2 id="hero">We design and build world-class web and mobile products</h2>
+                    <h2 >We design and build world-class web and mobile products</h2>
                     <h4>Designing digital solutions for your business success.</h4>
                     <!-- CTA's -->
                     <div class="cta">
@@ -304,57 +304,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
 
     <script>
-        gsap.registerPlugin(ScrollTrigger);
-
-        const textAnimation = gsap.timeline({
-            defaults: { duration: 1, opacity: 0, y: '10%', stagger: '.008' },
-        });
-
-        const imageAnimation = gsap.timeline({
-            defaults: { duration: 1, opacity: 0, y: '10%', delay: .01, stagger: .8, },
-        });
-        textAnimation.from(".hero", { opacity: 0, y: '10rem', ease:"bounce"  })
-        textAnimation.from(".testimonial--carousel", { opacity: 0, y: '10rem', ease:"bounce"  })
-
-
        
-        // Define the animation for each .approach div
-        function animateApproach(div) {
-            imageAnimation.from(
-                div.querySelector('.image'),
-                { opacity: 1, y: '-10rem' },
-                '<'
-            );
-            textAnimation.from(
-                div.querySelector('.approach--txt_top'),
-                { opacity: 0, y: '-10rem' }
-            );
-            textAnimation.from(
-                div.querySelector('.approach--txt_bottom'),
-                { opacity: 0, y: '10rem' },
-                '<' 
-            );
-
-            textAnimation.from(
-                div.querySelector('.testimonial--txt'),
-                { opacity: 0, y: '10rem' },
-                '<' 
-            );
-           
-        }
-
-        // Use ScrollTrigger to trigger the animation for each .approach div
-        document.querySelectorAll('.approach, .approach1, .approach img, .testimonial').forEach((div) => {
-            ScrollTrigger.create({
-                trigger: div,
-                start: 'center 100%',
-                onEnter: () => {
-                    animateApproach(div);
-                },
-            });
-        });
-
-
     </script>
 </body>
 
