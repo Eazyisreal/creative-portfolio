@@ -63,198 +63,202 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <!-- Email.js CDN -->
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q98QZPJE8J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q98QZPJE8J');
+    </script>
 </head>
 
 <body>
 
-  ">
+    ">
 
-        <!-- Header  -->
-        <header class="header container">
-            <a href="/creative-portfolio/index.html "> <img loading="lazy" src="../img/logo.svg" alt="" />
-            </a>
+    <!-- Header  -->
+    <header class="header container">
+        <a href="/creative-portfolio/index.html "> <img loading="lazy" src="../img/logo.svg" alt="" />
+        </a>
 
-            <!-- nav -->
-            <nav class="nav__links">
-                <ul>
-                    <li class="nav__item">
-                        <a href="/creative-portfolio/index.html" rel="noopener noreferrer">Home </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./projects.html" rel="noopener noreferrer">Projects </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./about.html" rel="noopener noreferrer"> About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./contact.html" class="active" rel="noopener noreferrer"> Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="harmburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </header>
-        <main>
-            <section class="hero4">
-                <div>
-                    <h2 id="small">HOW CAN WE HELP?</h2>
+        <!-- nav -->
+        <nav class="nav__links">
+            <ul>
+                <li class="nav__item">
+                    <a href="/creative-portfolio/index.html" rel="noopener noreferrer">Home </a>
+                </li>
+                <li class="nav__item">
+                    <a href="./projects.html" rel="noopener noreferrer">Projects </a>
+                </li>
+                <li class="nav__item">
+                    <a href="./about.html" rel="noopener noreferrer"> About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contact.html" class="active" rel="noopener noreferrer"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="harmburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <main>
+        <section class="hero4">
+            <div>
+                <h2 id="small">HOW CAN WE HELP?</h2>
 
-                    <div class="call">
-                        <div class="column">
-                            <div class="call--column">
-                                <h4>Call Us</h2>
-                                    <h5>+2341 234 5678</h5>
-                            </div>
-
-                            <div class="call--column">
-                                <h4>Visit Us</h2>
-                                    <h5>J976+XR2, Oregun 101233, Lagos State, Nigeria</h5>
-                            </div>
+                <div class="call">
+                    <div class="column">
+                        <div class="call--column">
+                            <h4>Call Us</h2>
+                                <h5>+2341 234 5678</h5>
                         </div>
 
-
-                        <div class="contact-form_row container">
-
-                            <form id="contact-form" class="contact-form">
-                                <div class="contact-form_info">
-                                    <label for="firstname">First Name <span>*</span></label>
-                                    <input type="text" name="firstname" id="contact-name" required>
-                                    <span id="name-error"></span>
-                                </div>
-
-                                <div class="contact-form_info">
-                                    <label for="lastname">Last Name <span>*</span></label>
-                                    <input type="text" name="lastname" id="" required>
-                                    <span id="name-error"></span>
-
-                                </div>
-                            </form>
-
-                            <form  id="contact-form"class="contact-form">
-                                <div class="contact-form_info">
-                                    <label for="email">Email Address <span>*</span></label>
-                                    <input type="email" name="email address" id="contact-email" required>
-                                    <span id="email-error"></span>
-
-                                </div>
-
-                                <div class="contact-form_info">
-                                    <label for="budget">Budget</label>
-                                    <input type="text" name="budget" id="contact-message">
-                                    <span id="message-error"></span>
-
-                                </div>
-                            </form>
-
-                            <form  id="contact-form" class="contact-form">
-                                <div class="contact-form_info">
-                                    <label for="firstname">Organisation (if any)</label>
-                                    <input type="text" name="Organisation" id="contact-message">
-                                    <span id="message-error"></span>
-
-                                </div>
-
-                                <div class="contact-form_info">
-                                    <label for="lastname">Phone Number</label>
-                                    <input type="tel" name="phone number" id="contact-phone">
-                                    <span id="phone-error"></span>
-
-                                </div>
-                            </form>
+                        <div class="call--column">
+                            <h4>Visit Us</h2>
+                                <h5>J976+XR2, Oregun 101233, Lagos State, Nigeria</h5>
+                        </div>
+                    </div>
 
 
-                            <form id="contact-form" class="contact-form_info">
-                                <label for="lastname">Project Description</label>
-                                <textarea name="project description" id="contact-message" cols="30"
-                                    rows="10"></textarea>
+                    <div class="contact-form_row container">
+
+                        <form id="contact-form" class="contact-form">
+                            <div class="contact-form_info">
+                                <label for="firstname">First Name <span>*</span></label>
+                                <input type="text" name="firstname" id="contact-name" required>
+                                <span id="name-error"></span>
+                            </div>
+
+                            <div class="contact-form_info">
+                                <label for="lastname">Last Name <span>*</span></label>
+                                <input type="text" name="lastname" id="" required>
+                                <span id="name-error"></span>
+
+                            </div>
+                        </form>
+
+                        <form id="contact-form" class="contact-form">
+                            <div class="contact-form_info">
+                                <label for="email">Email Address <span>*</span></label>
+                                <input type="email" name="email address" id="contact-email" required>
+                                <span id="email-error"></span>
+
+                            </div>
+
+                            <div class="contact-form_info">
+                                <label for="budget">Budget</label>
+                                <input type="text" name="budget" id="contact-message">
                                 <span id="message-error"></span>
 
-                            </form>
+                            </div>
+                        </form>
 
-                            <a href=""><button class="contact_btn">Submit</button></a>
+                        <form id="contact-form" class="contact-form">
+                            <div class="contact-form_info">
+                                <label for="firstname">Organisation (if any)</label>
+                                <input type="text" name="Organisation" id="contact-message">
+                                <span id="message-error"></span>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="content container">
-                <div class="column">
-                    <div class="footer--logo">
-                        <img loading="lazy" src="../img/logo.svg" alt="An array of green star image" />
-                    </div>
+                            </div>
 
-                    <div class="social--links">
-                        <img loading="lazy" src="../img/facebook.png" width="20px" height="20px" 
-                            alt="Fcebook icon">
-                        <img loading="lazy" src="../img/instagram.png" width="20px" height="20px"
-                            alt=" instgram icon">
-                        <img loading="lazy" src="../img/twitter.png" width="20px" height="20px"
-                            alt=" Twitter icon">
-                        <img loading="lazy" src="../img/linkedin.png" width="20px" height="20px"
-                            alt=" Linkedin icon">
+                            <div class="contact-form_info">
+                                <label for="lastname">Phone Number</label>
+                                <input type="tel" name="phone number" id="contact-phone">
+                                <span id="phone-error"></span>
+
+                            </div>
+                        </form>
+
+
+                        <form id="contact-form" class="contact-form_info">
+                            <label for="lastname">Project Description</label>
+                            <textarea name="project description" id="contact-message" cols="30" rows="10"></textarea>
+                            <span id="message-error"></span>
+
+                        </form>
+
+                        <a href=""><button class="contact_btn">Submit</button></a>
+
                     </div>
-                </div>
-                <div class="footer--nav">
-                    <ul>
-                        <li>
-                            <a href="./projects.html" rel="noopener noreferrer">Projects</a>
-                        </li>
-                        <li>
-                            <a href="./about.html" rel="noopener noreferrer"> About </a>
-                        </li>
-                        <li>
-                            <a href="./contact.html" rel="noopener noreferrer">
-                                Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="actions">
-                    <h2>Subscribe</h2>
-                    <div class="form">
-                        <label for="Email"></label>
-                        <input type="email" name="" id="" placeholder="Enter your email">
-                        <div class="cta">
-                            <a href="#"><button class="btn_cta">Subscribe</button></a>
-                        </div>
-                    </div>
-                    <h2>By subscribing you agree to with our Privacy Policy</h2>
                 </div>
             </div>
-            <hr>
-            <div class="rows">
-                <div class="footer--nav1">
-                    <ul>
-                        <li>
-                            <a href="#" rel="noopener noreferrer">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#" rel="noopener noreferrer"> Terms of Service </a>
-                        </li>
-                        <li>
-                            <a href="#" rel="noopener noreferrer"> Cookies Settings</a>
-                        </li>
-                    </ul>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content container">
+            <div class="column">
+                <div class="footer--logo">
+                    <img loading="lazy" src="../img/logo.svg" alt="An array of green star image" />
                 </div>
-                <h2> &copy2023, All right reserved.</h2>
-            </div>
-        </footer>
 
-   
+                <div class="social--links">
+                    <img loading="lazy" src="../img/facebook.png" width="20px" height="20px" alt="Fcebook icon">
+                    <img loading="lazy" src="../img/instagram.png" width="20px" height="20px" alt=" instgram icon">
+                    <img loading="lazy" src="../img/twitter.png" width="20px" height="20px" alt=" Twitter icon">
+                    <img loading="lazy" src="../img/linkedin.png" width="20px" height="20px" alt=" Linkedin icon">
+                </div>
+            </div>
+            <div class="footer--nav">
+                <ul>
+                    <li>
+                        <a href="./projects.html" rel="noopener noreferrer">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" rel="noopener noreferrer"> About </a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" rel="noopener noreferrer">
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="actions">
+                <h2>Subscribe</h2>
+                <div class="form">
+                    <label for="Email"></label>
+                    <input type="email" name="" id="" placeholder="Enter your email">
+                    <div class="cta">
+                        <a href="#"><button class="btn_cta">Subscribe</button></a>
+                    </div>
+                </div>
+                <h2>By subscribing you agree to with our Privacy Policy</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="rows">
+            <div class="footer--nav1">
+                <ul>
+                    <li>
+                        <a href="#" rel="noopener noreferrer">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" rel="noopener noreferrer"> Terms of Service </a>
+                    </li>
+                    <li>
+                        <a href="#" rel="noopener noreferrer"> Cookies Settings</a>
+                    </li>
+                </ul>
+            </div>
+            <h2> &copy2023, All right reserved.</h2>
+        </div>
+    </footer>
+
+
 
     <script src="../js/harmburger.js" type="text/javascript"></script>
     <script src="../js/script.js" type="text/javascript"></script>
     <script type="text/javascript">
-        (function(){
+        (function () {
             emailjs.init("UEK8XPm_lttIjB4AX");
         })();
-        
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
+
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
             event.preventDefault();
             emailjs.send("service_76nrdxa", "template_ilu1zpb", {
                 "from_name": document.getElementById("contact-form").elements.namedItem("name").value,
@@ -262,17 +266,17 @@
                 "subject": document.getElementById("contact-form").elements.namedItem("subject").value,
                 "message": document.getElementById("contact-form").elements.namedItem("message").value,
             })
-            .then(function(response) {
-                console.log("SUCCESS", response);
-                alert("Your message has been sent!");
-                document.getElementById("contact-form").reset();
-            }, function(error) {
-                console.log("FAILED", error);
-                alert("Sorry, there was a problem sending your message. Please try again later.");
-            });
+                .then(function (response) {
+                    console.log("SUCCESS", response);
+                    alert("Your message has been sent!");
+                    document.getElementById("contact-form").reset();
+                }, function (error) {
+                    console.log("FAILED", error);
+                    alert("Sorry, there was a problem sending your message. Please try again later.");
+                });
         });
-      </script>
-      
+    </script>
+
 
 </body>
 
