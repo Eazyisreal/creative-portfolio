@@ -6,9 +6,14 @@
     height: 100px;
   }
 
-  /* .hero {
+  .hero {
     min-height: 100vh;
-  } */
+  }
+
+  .projects{
+    padding: 2rem 0;
+  }
+
 .approach, .approach1{
   padding-top:3rem ;
 }
