@@ -1,5 +1,5 @@
 
-  //  Saving all HTML ID's as Variables
+//  Saving all HTML ID's as Variables
 var nameError = document.getElementById('name-error');
 var phoneError = document.getElementById('phone-error');
 var emailError = document.getElementById('email-error');
@@ -10,11 +10,11 @@ var messageError = document.getElementById('message-error');
 function validateName() {
     var name = document.getElementById('contact-name').value;
 
-    if( name.length === 0 ){
+    if (name.length === 0) {
         nameError.innerHTML = 'Name is required';
         return false;
     }
-    if(!name.match(/^[A-Za-z]*\s{1}[A-za-z]*$/)){
+    if (!name.match(/^[A-Za-z]*\s{1}[A-za-z]*$/)) {
         nameError.innerHTML = 'Write Full Name';
         return false;
     }
@@ -27,11 +27,11 @@ function validateName() {
 function validateEmail() {
     var email = document.getElementById('contact-email').value;
 
-    if( email.length === 0 ){
+    if (email.length === 0) {
         emailError.innerHTML = 'Email is required';
         return false;
     }
-    if(!!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-za-z]*[\.][a-z]{2,4}$/)){
+    if (!!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-za-z]*[\.][a-z]{2,4}$/)) {
         emailError.innerHTML = 'Email Invalid';
         return false;
     }
@@ -42,21 +42,21 @@ function validateEmail() {
 // Function to validate Phone
 function validatePhone() {
     var phone = document.getElementById('contact-phone').value;
-  
+
     if (phone.length === 0) {
-      phoneError.innerHTML = 'Phone Number is required';
-      return false;
+        phoneError.innerHTML = 'Phone Number is required';
+        return false;
     }
-  
+
     if (!phone.match(/^\+?\d{11,}$/)) {
-      phoneError.innerHTML = 'Phone Number should be at least 11 digits';
-      return false;
+        phoneError.innerHTML = 'Phone Number should be at least 11 digits';
+        return false;
     }
-  
+
     phoneError.innerHTML = '<img src="https://img.icons8.com/office/16/000000/checked--v1.png"/>';
     return true;
-  }
-  
+}
+
 
 
 // Function to validate Message
@@ -65,7 +65,7 @@ function validateMessage() {
     var required = 20;
     var left = required - message.length;
 
-    if( left > 0 ){
+    if (left > 0) {
         messageError.innerHTML = left + ' more characters required';
         return false;
     }
@@ -86,13 +86,13 @@ function validateMessage() {
 
 // $('.button').click(function(event) {
 //     event.preventDefault();
-  
+
 //     // Get form data
 //     const name = $('#name').val();
 //     const email = $('#email').val();
 //     const subject = $('#subject').val();
 //     const message = $('#message').val();
-  
+
 //     // Send email using email.js
 //     const data = {
 //       from_name: name,
@@ -110,31 +110,34 @@ function validateMessage() {
 // });
 
 
-// function sendMail(){
+// function sendMail() {
 //     var params = {
 //         name: document.getElementById("contact-name").value,
 //         phone: document.getElementById("contact-phone").value,
 //         email: document.getElementById("contact-email").value,
-//         product: document.getElementById("product").value,
 //         message: document.getElementById("contact-message").value,
 //     }
+
+//     const serviceID = "service_76nrdxa"
+//     const templateID = "template_ilu1zpb"
+
+//     emailjs.send(serviceID, templateID, params)
+//         .then((res) => {
+//             document.getElementById("contact-name").value = '';
+//             document.getElementById("contact-phone").value = '';
+//             document.getElementById("contact-email").value = '';
+//             document.getElementById("product").value = '';
+//             document.getElementById("contact-message").value = '';
+
+//             console.log(res);
+//             alert('Your message sent successfully')
+
+//         })
+
+//         .catch(err => console.log(err));
 // }
-  
-// const serviceID = "service_76nrdxa"
-// const templateID = "template_ilu1zpb"
 
-// emailjs.send( serviceID, templateID , params)
-// .then(
-//     res => {
-//         document.getElementById("contact-name").value = '';
-//         document.getElementById("contact-phone").value = '';
-//         document.getElementById("contact-email").value = '';
-//         document.getElementById("product").value = '';
-//         document.getElementById("contact-message").value = '';
-//     }    
-// )
 
-// .catch(err => console.log(err));
 
 // const submitBtn = document.getElementById("submit-btn");
 // submitBtn.addEventListener("click", function(event) {

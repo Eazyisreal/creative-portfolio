@@ -36,7 +36,7 @@
 
 .contact-form {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   padding-bottom: 10px;
   gap: 1rem;
   width: 100%;
@@ -120,4 +120,25 @@ a {
   font-family: var(--noto-font);
   color: var(--secondary-color);
   transition: 0.2s;
+}
+
+.contact_btn:hover{
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  transform: scale(1.03) translateY(0.06rem);
+  transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.for{
+  display: flex;
+  position: relative;
+}
+
+.for span {
+  position: absolute;
+  bottom: 0.7rem;
+  right: 1rem;
+  font-size: .7rem;
+  color: red;
 }
