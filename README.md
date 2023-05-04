@@ -23,7 +23,7 @@ The website includes the following features:
 - Responsive design using media queries
 - Animated hero section using GSAP
 - Scroll-based animations using GSAP
-- Gallery section with lightbox effect using vanilla JavaScript
+
 
 
 ## Usage
@@ -40,9 +40,9 @@ The following resources were used in the development of this website:
 
 - GSAP
 - Unsplash
-- Feather Icons
-- Fancybox
-- Normalize.css
+- Flat Icons
+- Adobe Express
+- Email.js
 
 ## License
 

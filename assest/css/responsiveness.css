@@ -135,7 +135,7 @@
 
 
 
-  .hero2 h2 {
+  .hero2 h2, .hero4 h2 {
     font-size: 1rem;
   }
 }

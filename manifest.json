@@ -1,0 +1,21 @@
+{
+    "name": "22nine06 Creative Agency Portfolio",
+    "short_name": "22nine06 Portfolio",
+    "icons": [
+      {
+        "src": "assest/img/logo.svg",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assest/img/logo.svg",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": " #e97001",
+    "background_color": "#000000"
+  }
+  
