@@ -142,3 +142,59 @@ a {
   font-size: .7rem;
   color: red;
 }
+
+.popup {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: .9;
+}
+
+.popup.active {
+  display: block;
+}
+
+.popup__content {
+  background-color:var(--bg-color);
+  width: 100%;
+  position: fixed;
+  top: 35%;
+  padding: 10rem;
+  text-align: center;
+  border-radius: 2rem;
+  opacity: 1;
+  box-shadow: var(--primary-color);
+}
+
+.popup__content h1 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+
+.harmburger1 {
+  display: block;
+  top: 18%;
+  position: absolute;
+  left: 3%;
+}
+
+.harmburger1.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.harmburger1.active .bar:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+.harmburger1.active .bar:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}

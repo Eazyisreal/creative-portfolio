@@ -69,6 +69,8 @@
             emailjs.init("UEK8XPm_lttIjB4AX");
         })();
     </script>
+     <!-- Jquery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -173,13 +175,28 @@
 
                         <div class="contact-form_info">
                             <label for="lastname">Project Description</label>
-                            <textarea name="project description" id="contact-project_description" cols="30" rows="10"></textarea>
+                            <textarea name="project description" id="contact-project_description" cols="30"
+                                rows="10"></textarea>
                             <span id="message-error"></span>
 
                         </div>
 
-                        <button type="button" class="contact_btn" onclick="sendMail()">Submit</button>
-
+                        <button type="button" class="contact_btn" id="open"  onclick="sendMail()">Submit</button>
+                        </form>
+                        <!-- Pop Up -->
+                        <div class="popup__container">
+                            <div class="popup" id="close">
+                              <div class="popup__content">
+                                <div class="harmburger1 active">
+                                  <span class="bar"></span>
+                                  <span class="bar"></span>
+                                  <span class="bar"></span>
+                                </div>
+                                <h1>Message Sent Succesfully, we'll respond to you shortly</h1>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- End popup -->
                     </div>
                 </div>
             </div>
@@ -276,13 +293,21 @@
                     document.getElementById("contact-phone").value = '';
                     document.getElementById("contact-email").value = '';
 
-                    console.log(res);
-                   
                 })
 
                 .catch(err => console.log(err));
         };
 
+        <!-- Open pop up modal -->
+        $(document).ready(function () {
+          $('#open').click(function () {
+            $('.popup').addClass('active');
+          });
+          $('#close').click(function () {
+            $('.popup').removeClass('active');
+          });
+        });
+    
     </script>
 </body>
 
