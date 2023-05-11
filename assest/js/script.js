@@ -4,7 +4,7 @@ var nameError = document.getElementById('name-error');
 var phoneError = document.getElementById('phone-error');
 var emailError = document.getElementById('email-error');
 var messageError = document.getElementById('message-error');
-// var submitError = document.getElementById('submit-error');
+var submitError = document.getElementById('submit-error');
 
 // function to validate Name
 function validateName() {
@@ -74,75 +74,12 @@ function validateMessage() {
 }
 
 // Function to validate Form
-// function validateForm() {
-//     if( !validateName() || !validateEmail() || !validatePhone() || !validateMessage() ){
-//         submitError.innerHTML = 'Please fill the form correctly';
-//         return false;
-//     }
-//     return true;
-// }
-
-
-
-// $('.button').click(function(event) {
-//     event.preventDefault();
-
-//     // Get form data
-//     const name = $('#name').val();
-//     const email = $('#email').val();
-//     const subject = $('#subject').val();
-//     const message = $('#message').val();
-
-//     // Send email using email.js
-//     const data = {
-//       from_name: name,
-//       from_email: email,
-//       subject: subject,
-//       message_html: message
-//     };
-//     emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', data)
-//       .then(response => {
-//         // Open the success modal
-//         $('.popup').addClass('active');
-//       }, error => {
-//         console.error(error);
-//       });
-// });
-
-
-// function sendMail() {
-//     var params = {
-//         name: document.getElementById("contact-name").value,
-//         phone: document.getElementById("contact-phone").value,
-//         email: document.getElementById("contact-email").value,
-//         message: document.getElementById("contact-message").value,
-//     }
-
-//     const serviceID = "service_76nrdxa"
-//     const templateID = "template_ilu1zpb"
-
-//     emailjs.send(serviceID, templateID, params)
-//         .then((res) => {
-//             document.getElementById("contact-name").value = '';
-//             document.getElementById("contact-phone").value = '';
-//             document.getElementById("contact-email").value = '';
-//             document.getElementById("product").value = '';
-//             document.getElementById("contact-message").value = '';
-
-//             console.log(res);
-//             alert('Your message sent successfully')
-
-//         })
-
-//         .catch(err => console.log(err));
-// }
-
-
-
-// const submitBtn = document.getElementById("submit-btn");
-// submitBtn.addEventListener("click", function(event) {
-//     event.preventDefault();
-//     sendMail();
-// });
+function validateForm() {
+    if( !validateName() || !validateEmail() || !validatePhone() || !validateMessage() ){
+        submitError.innerHTML = 'Please fill the form correctly';
+        return false;
+    }
+    return true;
+}
 
 

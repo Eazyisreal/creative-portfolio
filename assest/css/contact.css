@@ -214,3 +214,17 @@ a {
   -webkit-transform: translateY(-8px) rotate(-45deg);
   transform: translateY(-8px) rotate(-45deg);
 }
+
+.span {
+  position: absolute;
+  bottom: 1.3rem;
+  right: 2.3rem;
+  font-size: .7rem;
+  color: red;
+}
+
+.span img {
+  color: rgba(43, 253, 145, 0.28);
+  padding: 1rem;
+  width: 3.2rem;
+}

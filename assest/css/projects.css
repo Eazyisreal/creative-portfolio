@@ -71,3 +71,8 @@
   font-size: 1rem;
   color: var(--secondary-color);
 }
+
+
+.project--row a{
+  text-decoration: none;
+}
