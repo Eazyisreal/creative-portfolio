@@ -1,6 +1,16 @@
 @media only screen and (max-width: 475px) {
   /* styles for smaller  mobile devices */
 
+
+  .popup__content{
+    padding: 5rem;
+  }
+
+  .popup__content h1{
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
   .header img {
     width: 100px;
     height: 100px;

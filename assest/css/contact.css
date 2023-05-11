@@ -165,7 +165,7 @@ a {
   text-align: center;
   border-radius: 2rem;
   opacity: 1;
-  box-shadow: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .popup__content h1 {
@@ -179,10 +179,26 @@ a {
 
 
 .harmburger1 {
+  display: none;
+  cursor: pointer;
+  color: var(--primary-color)
+}
+
+.harmburger1 .bar {
+  display: block;
+  width: 1.7rem;
+  height: .18rem;
+  margin: 0.20rem auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary-color);
+}
+
+.harmburger1 {
   display: block;
   top: 18%;
   position: absolute;
-  left: 3%;
+  left: 5%;
 }
 
 .harmburger1.active .bar:nth-child(2) {
