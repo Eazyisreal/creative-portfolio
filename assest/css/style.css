@@ -54,11 +54,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header img {
   transition: 0.2s;
-  height: 5rem;
-  width: 100%;
+  height: 2.7rem;
+  /* width: 100%; */
 }
 
 .header img:hover {
@@ -112,14 +113,14 @@ body {
   margin: 0.2rem auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 @media screen and (max-width: 600px) {
   .harmburger {
     display: block;
     position: absolute;
-    top: 8.2%;
+    /* top: 8.2%; */
     left: 90%;
   }
 
@@ -479,7 +480,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 5rem;
+  height: 2.7rem;
   align-items: flex-start;
   padding: 0px;
   gap: 21.33px;

@@ -11,10 +11,10 @@
     font-weight: 300;
   }
 
-  .header img {
+  /* .header img {
     width: 100px;
     height: 100px;
-  }
+  } */
 
   .hero {
     min-height: 50vh;
@@ -22,7 +22,7 @@
     place-content: center;
   }
 
-  .projects{
+  .projects, .bottom{
     padding: 2rem 0;
   }
 
